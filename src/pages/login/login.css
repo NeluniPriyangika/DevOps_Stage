@@ -1,0 +1,72 @@
+.login{
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(2, 48, 255, 0.5),
+        rgba(255, 25, 198, 0.5)
+        ), 
+        url("../../assests/logBack.jpg");
+    background-size: cover;
+    background-color: blue;
+}
+
+.loginTitle{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Lora', serif;
+    
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(246, 24, 220);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    transition: 0.2s all;
+    box-shadow: 7px 6px 28px;
+}
+
+.loginButton:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252, 177, 177);
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(8, 72, 201);
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
