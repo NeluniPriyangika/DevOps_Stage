@@ -1,0 +1,148 @@
+.post{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35); 
+    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    margin:30px 0;
+
+}
+.ideaTitle{
+    width: 90%;
+    border-radius: 10px;
+    font-size:30px;
+    margin-top: 10px;
+
+}
+.postWrapper{
+    padding: 10px;
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topLeft{
+    display: flex;
+    align-items: center;
+}
+.profilePic{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.postUsername{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+
+}
+.postDate{
+    font-size: 12px;
+}
+ 
+.postCenter{
+    margin: 20px 0;
+}
+.postImage{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+.likeIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-left:10px;
+   
+}
+.likeIcon:after
+{
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+.likeIcon:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+.postLikeCounter{
+    font-size: 15px;
+}
+.postCommentText{
+    cursor: pointer;
+    border-bottom:1px dashed gray ;
+    font-size: 15px;
+}
+.Box{
+    width: fit-content;
+    height:fit-content;
+    border-radius: 10px;
+    margin:30px 0;
+    background-color: #ffb3b3;
+    font-size: 15px;
+    margin-top:5px;
+    align-items: center;
+    margin-bottom: 5pt;
+    padding-left: 10px;
+    border-style: solid;
+    border-color: #ff6666;
+    margin-top:10px;
+    font-family: "Roboto Light";
+
+}
+.boxText{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: "Roboto Light";
+}
+.postText{
+    font-family:"Roboto Light";
+}
+
+.postItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.proposal{
+    margin-left: 10px;
+    margin-top: 10px;
+    color:blue;
+    cursor: pointer;
+}
+.read{
+    color: #6969d7;
+}
+.commnt{
+ margin-right: 10px;
+    cursor: pointer;
+}
+.mesage{
+    margin-right: 10px;
+    cursor: pointer;
+}

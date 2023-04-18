@@ -13,7 +13,7 @@ export default function Home() {
             <img className='image1' src='https://i.ibb.co/Bw5rrQK/20230226-142958.jpg" alt="20230226-142958' alt=''/>
             <div class="text">
               <h1>Profile</h1>
-              <h2 class="animate-text"><Link className='link' to="/profile">Go to your Profile <AiOutlineArrowRight/> </Link></h2>
+              <h2 class="animate-text"><Link className='link' to="/profile">Curent Rate 80% <AiOutlineArrowRight/> </Link></h2>
               <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
               <div class="dots">
                   <span></span>
@@ -26,8 +26,8 @@ export default function Home() {
         <div class="tile"> 
           <img className='image2' src='https://i.ibb.co/4jB1wNn/pexels-pixabay-267885.jpg' alt=''/>
           <div class="text">
-            <h1>DevOps Learning</h1>
-            <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
+            <h1>My Learning RoadMap</h1>
+            <h2 class="animate-text"><Link className='link' to="/learning">What i have learned <AiOutlineArrowRight/> </Link> </h2>
             <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
             <div class="dots">
                 <span></span>

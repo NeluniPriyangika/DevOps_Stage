@@ -1,0 +1,129 @@
+.share{
+    width: 100%;
+    height: 490px;
+    border-radius: 10px;
+    background-color:white;
+    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35); 
+    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+} 
+.shareWrapper{
+    padding: 10px;
+}
+.shareImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.shareTop{
+    display: flex;
+    align-items: center;
+}
+.shareinput{
+    border:none;
+    width:80%;
+    background:transparent;
+    font-size:20px;
+    font-family: "Roboto Light";
+    margin-top:10px;
+    margin-left: 10px;
+}
+.shareinput:focus{
+    outline:none;
+}
+.shareHr{
+    margin:20px;
+}
+.shareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shareOptions{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+.shareOption{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.shareOptionText{
+    margin-left: 10px;
+}
+.shareOptionText{
+    font-size: 14px;
+    font-weight: 500;
+}
+.shareButton{
+     border:none;
+     padding: 7px;
+     border-radius: 5px;
+     background-color:rgb(66, 105, 8);
+     font-weight: 500;
+     margin-right: 20px;
+     cursor: pointer;
+     color:white;
+}
+.shareDesc{
+    margin-left: 60px;
+    background-color: #f8dce7;
+    width:80%;
+    height:30%;
+    border-radius: 10px;
+}
+.shareCost{
+    margin-left: 60px;
+    background-color:#f8dce7;
+    width:80%;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.shareinput2{
+    border: none;
+    width: 80%;
+    background: transparent;
+    font-size: 16px;
+    font-family: "Roboto Light";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.drop{
+    position: relative;
+    display: flow;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.shareIdea{
+    margin-left: 1px;
+    background-color:#f8dce7;
+    width:80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.shareDesc:focus{
+    outline:none;
+}
+.shareCost:focus{
+    outline:none;
+}
+.shareinput2{
+    outline: none;
+}
+.dropContainer{
+    display: flex;
+}
+.privacy{
+    margin-top: 10px;
+    margin-left: 20px;
+}

@@ -2,18 +2,17 @@ import React from 'react'
 import "./sidebar.css"
 import {MdMessage} from 'react-icons/md';
 import {MdGroups} from 'react-icons/md';
-import {MdEventAvailable} from 'react-icons/md';
 import {MdAnnouncement} from 'react-icons/md';
 import {MdFormatSize} from 'react-icons/md';
 import {Users} from "../../dummyData";
 import CloseFriends from "../closeFriends/CloseFriends";
-import TrendingUpIcon from '@material-ui/icons/TrendingUp';
-import AssistantPhotoIcon from '@material-ui/icons/AssistantPhoto';
-import AssignmentIcon from '@material-ui/icons/Assignment';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import StorefrontIcon from '@material-ui/icons/Storefront';
+import {MdTrendingUp} from 'react-icons/md';
+import {MdAssistantPhoto} from 'react-icons/md';
+import {MdAssignment} from 'react-icons/md';
+import {MdFavorite} from 'react-icons/md';
+import {MdOutlineStorefront} from 'react-icons/md';
 import Spinner from 'react-bootstrap/Spinner'
-import { DropdownButton,Dropdown,Button } from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
 
@@ -27,19 +26,19 @@ export default function Sodebar() {
                        <Link className="sidebarListText" to="/discussion">Discussions</Link>
                    </li>
                    <li className="sidebarListItem">
-                       <TrendingUpIcon/>
+                       <MdTrendingUp/>
                        <span className="sidebarListText">
                            Trending Ideas
                        </span>
                    </li>
                    <li className="sidebarListItem">
-                       <AssistantPhotoIcon />
+                       <MdAssistantPhoto />
                        <span className="sidebarListText">
                            Relevant Ideas
                        </span>
                    </li>
                    <li className="sidebarListItem">
-                       <FavoriteIcon/>
+                       <MdFavorite/>
                        <span className="sidebarListText">
                            Favourite Ideas
                        </span>
@@ -51,7 +50,7 @@ export default function Sodebar() {
                        </span>
                    </li>
                    <li className="sidebarListItem">
-                       <AssignmentIcon/>
+                       <MdAssignment/>
                        <Link className="sidebarListText" to="/proposals">Business Proposals </Link>
                    </li>
                    <li className="sidebarListItem">
@@ -69,7 +68,7 @@ export default function Sodebar() {
                        </span>
                    </li>
                    <li className="sidebarListItem">
-                       <StorefrontIcon/>
+                       <MdOutlineStorefront/>
                           <Link className="sidebarListText" to="/supplier"> Item Suppliers </Link>
                    </li>
                    

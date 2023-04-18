@@ -2,6 +2,7 @@ import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Profile from "./pages/profile/Profile";
+import Learning from "./pages/learning/Learning";
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useContext } from "react";
@@ -19,6 +20,8 @@ function App() {
         <Route path="/login" element={user? <Home/>:<Login/>}/>
         <Route exact path="/home" element={<Home/>}/>
         <Route path="/profile" element= {<Profile/>}/>
+        <Route path="/learning" element= {<Learning/>}/>
+
 
       </Routes>
     </Router>

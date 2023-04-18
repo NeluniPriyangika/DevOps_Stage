@@ -1,52 +1,52 @@
 export const Users = [
     {
       id:1,
-      profilePicture: "assets/person/1.jpeg",
+      profilePicture:"https://i.ibb.co/c6xjTVS/pexels-marcelo-chagas-6347176.jpg",
       username: "Kasun Gayantha",
     },
     {
       id:2,
-      profilePicture: "assets/person/2.jpeg",
+      profilePicture: "https://i.ibb.co/N1N6Hnd/add1b55d-63d3-4fc3-8ff6-92bdaecf7973.png",
       username: "Neluni Priyangika",
     },
     {
       id:3,
-      profilePicture: "assets/person/3.jpeg",
+      profilePicture:"https://i.ibb.co/TbVYd6d/pexels-ketut-subiyanto-4307869.jpg",
       username: "Chamith Gayantha",
     },
     {
       id:4,
-      profilePicture: "assets/person/4.jpeg",
-      username: "Mayithripala Sirisena",
+      profilePicture: "https://i.ibb.co/YBDPRWb/pexels-nagy-szabi-4134204.jpg",
+      username: "Madura Sirisena",
     },
     {
       id:5,
-      profilePicture: "assets/person/5.jpeg",
-      username: "Mahinda Rajapaksha",
+      profilePicture: "https://i.ibb.co/vLsSK4s/pexels-marlon-schmeiski-3839910.jpg",
+      username: "chathuri Rajapaksha",
     },
     {
       id:6,
-      profilePicture: "assets/person/6.jpeg",
+      profilePicture: "https://i.ibb.co/c6xjTVS/pexels-marcelo-chagas-6347176.jpg",
       username: "Sunil Perera ",
     },
     {
       id:7,
-      profilePicture: "assets/person/7.jpeg",
+      profilePicture:"https://i.ibb.co/mvLnTpj/pexels-juan-vargas-6267570.jpg",
       username: "Yohani Samaradiwakara",
     },
     {
       id:8,
-      profilePicture: "assets/person/8.jpeg",
+      profilePicture: "https://i.ibb.co/TbVYd6d/pexels-ketut-subiyanto-4307869.jpg",
       username: "Wimal Wirawansha",
     },
     {
       id:9,
-      profilePicture: "assets/person/9.jpeg",
-      username: "Saman Perera",
+      profilePicture: "https://i.ibb.co/YBDPRWb/pexels-nagy-szabi-4134204.jpg",
+      username: "Priyantha Disanayake",
     },
     {
       id:10,
-      profilePicture: "assets/person/10.jpeg",
+      profilePicture: "https://i.ibb.co/YBDPRWb/pexels-nagy-szabi-4134204.jpg",
       username: "Saliya Perera ",
     }
   ];
