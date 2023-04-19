@@ -29,18 +29,19 @@
 .sidebarListItem{
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
-    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 .sidebarListText{
     margin-left: 15px;
     text-decoration: none;
-    color:black;
+    color: black;
     font-weight:500;
 }
 .sidebarListText:hover{
-    color:brown;
+    color:rgb(95, 27, 122);
     font-size: 20px;
+    text-decoration: none;
 }
 
 .sidebarButton{

@@ -32,23 +32,10 @@
     transform: translateX(-50%);
 }
 
-a:link { 
+.link:hover{
+    color:rgb(255, 255, 255);
     text-decoration: none;
-    color: white;
 }
-a:visited { 
-    text-decoration: none; 
-    color: white;
-}
-a:hover { 
-    text-decoration: none; 
-    color: white;
-}
-a:active { 
-    text-decoration: none; 
-    color: white;
-}
-
 
 
 /* Container Css Start  */

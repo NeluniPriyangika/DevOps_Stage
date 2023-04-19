@@ -1,7 +1,7 @@
 import React from 'react';
 import './learning.css';
 import Topbar from '../../components/topbar/Topbar'; 
-
+import { Link } from 'react-router-dom';
 
 function Learning() {
   return (
@@ -19,7 +19,7 @@ function Learning() {
                       <button class="button-82-pushable" >
                         <span class="button-82-shadow"></span>
                         <span class="button-82-edge"></span>
-                        <span class="button-82-front text"><a  href="/pythonLearning">Python</a></span>
+                        <span class="button-82-front text"><Link className='link' to="/pythonLearning">Python</Link></span>
                       </button>
                       <button class="button-82-pushable">
                         <span class="button-82-shadow"></span>

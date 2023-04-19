@@ -1,0 +1,11 @@
+.pythonMainCont{
+    display: flex;
+}
+
+.pythonRight{
+    flex: 9;
+}
+
+.pythonRightBottom{
+    display:flex;
+}
