@@ -22,20 +22,17 @@ const Profile = () => {
                                    src="https://i.ibb.co/Bw5rrQK/20230226-142958.jpg" alt=""/>
                           </div>
                           <div className="profileInfo">
-                              <h4 className="profileInfoName">Kasun Gayantha</h4>
+                              <h4 className="profileInfoName">Neluni Priyangika</h4>
                               <span className="profileInfoDesc">I am a student of NSBM green university and I am doing a management information systems
                               degree. I have experience in Software engeneering and information managemnt. I am also a freelancer on upwork. Usually I work on web
                               and software project6s </span>
                           </div>
-
                       </dive>
                       <dive className="profileRightBottom">
                           <Feed/>
                           <Rightbar profile/>
                       </dive>
                   </dive>
-
-
             </div>
     </div>
   )

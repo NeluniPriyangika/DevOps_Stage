@@ -3,6 +3,7 @@ import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import Profile from "./pages/profile/Profile";
 import Learning from "./pages/learning/Learning";
+import PythonLearning from "./pages/pythonLearning/PythonLearning";
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useContext } from "react";
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/home" element={<Home/>}/>
         <Route path="/profile" element= {<Profile/>}/>
         <Route path="/learning" element= {<Learning/>}/>
+        <Route path="/pythonLearning" element= {<PythonLearning/>}/>
 
 
       </Routes>

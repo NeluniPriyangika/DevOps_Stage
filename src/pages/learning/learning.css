@@ -15,7 +15,7 @@
     place-items: center;
 }
 .main .heading{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     color: rgb(106, 6, 236);
     position: relative;
@@ -38,6 +38,7 @@
     width: 70%;
     height: auto;
     position: relative;
+    margin-top: 40px;
 }
 .container ul::after{
     position: absolute;
@@ -99,6 +100,7 @@ ul li .button-82-pushable{
     -webkit-user-select: none;
     touch-action: manipulation;
     margin-right: 10px;
+    margin-top: 15px;
 }
 
 ul li .button-82-shadow{
@@ -197,7 +199,7 @@ ul li .button-82-front{
 
 ul li .date{
     position: absolute;
-    top: -45px;
+    top: -50px;
     width: 135px;
     height: 35px;
     border-radius: 20px;
@@ -207,6 +209,47 @@ ul li .date{
     place-items: center;
     font-size: 14px;
 }
+
+ul li .date::before{
+    content: "";
+    background: linear-gradient(
+        45deg,
+        #ff0000,
+        #ff7300,
+        #fffb00,
+        #48ff00,
+        #00ffd5,
+        #002bff,
+        #7a00ff,
+        #ff00c8,
+        #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+ 
 .container ul li .circle{
     width: 30px;
     height: 30px;
