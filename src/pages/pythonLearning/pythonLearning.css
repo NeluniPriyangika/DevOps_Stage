@@ -6,6 +6,20 @@
     flex: 9;
 }
 
-.pythonRightBottom{
-    display:flex;
+.pythoncontex{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.pythonRightmiddle{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.cardContext{
+    
 }

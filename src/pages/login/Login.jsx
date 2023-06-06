@@ -49,8 +49,9 @@ export default function Login() {
             <button 
               className='loginButton' 
               type='submit' 
-              disabled ={isFetching}
-            ><Link className='link' to= "/home">Login</Link></button>
+              disabled ={isFetching}>
+              <Link className='link' to= "/home">Login</Link>
+            </button>
         </form>
         <button className='loginRegisterButton'>
           <Link className='link' to="/register">Register</Link>

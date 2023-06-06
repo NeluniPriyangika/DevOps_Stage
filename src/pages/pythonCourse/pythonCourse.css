@@ -1,0 +1,78 @@
+.pythonCourse-container{
+    display: flex;
+    flex-direction:row;
+    /*font-size: 30px;
+    text-align: center;*/
+
+    
+}
+
+
+.coursecontent{
+    background-color: #303030;
+    padding: 20px;
+    flex: 30%;
+    color: #f1f1f1;
+}
+
+.coursecontent-title{
+    font-size: 1.5rem;
+}
+
+.listItem-div{
+    margin-top: 5%;
+    background-color: #545454;
+    
+}
+
+.vedioicon{
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.link{
+    color: #f1f1f1;
+}
+
+.video-container {
+    background-color: rgb(249, 255, 212);
+    padding: 30px;
+    flex: 70%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.pyimage{
+    border:#303030;
+    border-width: 2%;
+}
+
+.videoDiv{
+   
+}
+
+.vedioDescription{
+    margin-top:5%; 
+}
+
+.vedioDescription-title{
+    font-size: 2rem;
+    margin-left: 35%;
+}
+
+.vedioDescription-p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size:larger;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .coursecontent, .videoDiv {
+      flex: 100%;
+    }
+  }
+
