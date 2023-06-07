@@ -7,6 +7,7 @@ import PythonLearning from "./pages/pythonLearning/PythonLearning";
 import PythonCourse from "./pages/pythonCourse/PythonCourse.jsx";
 import PythonContent from "./pages/pythonContent/PythonContent.jsx";
 import PythonContentsec from './pages/pythonContentsec/PythonContentsec.jsx';
+import LinuxLearning from "./pages/linuxLearning/LinuxLearning";
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useContext } from "react";
@@ -29,6 +30,8 @@ function App() {
         <Route path="/pythonCourse" element= {<PythonCourse/>}/>
         <Route path="/pythonContent" element= {<PythonContent/>}/>
         <Route path="/pythonContentsec" element= {<PythonContentsec/>}/>
+        <Route path="/linuxLearning" element= {<LinuxLearning/>}/>
+        
 
         
 

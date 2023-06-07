@@ -48,7 +48,7 @@ function Learning() {
                       <button class="button-82-pushable" >
                         <span class="button-82-shadow"></span>
                         <span class="button-82-edge"></span>
-                        <span class="button-82-front text">Linux</span>
+                        <span class="button-82-front text"><Link className='link' to="/linuxLearning">Linux</Link></span>
                       </button>
                       <button class="button-82-pushable">
                         <span class="button-82-shadow"></span>
