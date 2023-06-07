@@ -1,0 +1,91 @@
+.pythonCourse-container{
+    display: flex;
+    flex-direction:row;
+    /*font-size: 30px;
+    text-align: center;*/
+
+    
+}
+
+.coursecontent{
+    background-color: #303030;
+    padding: 20px;
+    flex: 30%;
+    color: #f1f1f1;
+}
+
+.mainDiv {
+    height: 1.5rem;
+    width: 500px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    margin: 1rem;
+ }
+ .childDiv {
+    height: 100%;
+    width: 40%;
+    background-color: green;
+    border-radius: 12px;
+    text-align: left;
+ }
+ .text {
+    color: white;
+    padding-left: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+ }
+
+.coursecontent-title{
+    font-size: 1.5rem;
+}
+
+.listItem-div{
+    margin-top: 5%;
+    background-color: #545454;
+    
+}
+
+.vedioicon{
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.link{
+    color: #f1f1f1;
+}
+
+.video-container {
+    background-color: rgb(249, 255, 212);
+    padding: 30px;
+    flex: 70%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.videoDiv{
+   
+}
+
+.vedioDescription{
+    margin-top:5%; 
+}
+
+.vedioDescription-title{
+    font-size: 2rem;
+}
+
+.vedioDescription-p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .coursecontent, .videoDiv {
+      flex: 100%;
+    }
+  }
+

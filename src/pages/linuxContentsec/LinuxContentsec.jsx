@@ -1,13 +1,14 @@
-import React, { useRef } from 'react';
-import "./pythonContentsec.css";
+import React, {useRef} from 'react';
+import "./linuxContentsec.css";
 import ReactPlayer from 'react-player';
 import {BsPlayCircle} from 'react-icons/bs';
 import {BsPlayCircleFill} from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
-const VIDEO_PATH = 'https://www.youtube.com/watch?v=RRr0kMLf8sE';
+const VIDEO_PATH = 'https://www.youtube.com/watch?v=WMy3OzvBWc0';
 
-function PythonCourse() {
+
+function LinuxContentsec() {
   const playerRef = useRef(null);
   return (
     <div className='pythonCourse-container'>
@@ -19,48 +20,48 @@ function PythonCourse() {
           </div>
         </div>
         <div className='contentList'>
-          <ul>
+        <ul>
             <div className='listItem-div' >
               <BsPlayCircleFill className='vedioicon'/>
-              <Link to="/pythonContent" className='link'>1. Introduction</Link>
+              <Link to="/linuxContent" className='link'>1. Introduction</Link>
             </div>
             <div className='listItem-div'>
               <BsPlayCircleFill className='vedioicon'/>
-              <Link to="/pythonContentsec" className='link'>2. Variables</Link>
+              <Link to="/linuxContentsec" className='link'>2. 2. Working with text files and Directories</Link>
             </div>
             <div className='listItem-div'>
               <BsPlayCircleFill className='vedioicon'/>
-              <Link to="/pythonContent" className='link'>3. Strings</Link>
+              <Link to="/linuxContent" className='link'>3. Creating and Managing user accounts in Linux</Link>
             </div>
             <div className='listItem-div'>
               <BsPlayCircleFill className='vedioicon'/>
-              <Link to="/pythonContentsec" className='link'>4. Data structures</Link>
+              <Link to="/linuxContentsec" className='link'>4. installing and managing software packages</Link>
             </div>
             <div className='listItem-div'>
               <BsPlayCircle className='vedioicon'/>
-              <Link to="/pythonContent" className='link'>5. Condition expressions</Link>
+              <Link to="/linuxContent" className='link'>5. Services</Link>
             </div>
             <div className='listItem-div'>
               <BsPlayCircle className='vedioicon'/>
-              <Link to="/pythonContentsec" className='link'>6. Loops</Link>
+              <Link to="/linuxContentsec" className='link'>6. process management & Monitoring</Link>
             </div>
             <div className='listItem-div'>
               <BsPlayCircle className='vedioicon'/>
-              <Link to="/pythonContent" className='link'>7. Functions</Link>
+              <Link to="/linuxContent" className='link'>7. Networking</Link>
             </div>
             <div className='listItem-div'>
               <BsPlayCircle className='vedioicon'/>
-              <Link to="/pythonContentsec" className='link'>8. Classes and objects</Link>
+              <Link to="/linuxContentsec" className='link'>8. Backup and restore with tar & gzip</Link>
             </div>
             <div className='listItem-div'>
               <BsPlayCircle className='vedioicon'/>
-              <Link to="/pythonContent" className='link'>9. Modules and packages</Link>
+              <Link to="/linuxContent" className='link'>9. Scheduling tasks</Link>
             </div>
             <div className='listItem-div'>
               <BsPlayCircle className='vedioicon'/>
-              <Link to="/pythonContentsec" className='link'>10. File input output</Link>
+              <Link to="/linuxContentsec" className='link'>10. Redirection & wildcard</Link>
             </div>
-          </ul>  
+          </ul> 
         </div>
       </div>
       <div className='video-container'>
@@ -81,6 +82,7 @@ function PythonCourse() {
       
     </div>
   )
-};
+}
 
-export default PythonCourse;
+export default LinuxContentsec
+
