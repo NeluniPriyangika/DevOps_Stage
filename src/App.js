@@ -11,6 +11,11 @@ import LinuxLearning from "./pages/linuxLearning/LinuxLearning";
 import LinuxCourse from "./pages/linuxCourse/LinuxCourse.jsx";
 import LinuxContent from "./pages/linuxContent/LinuxContent";
 import LinuxContentsec from "./pages/linuxContentsec/LinuxContentsec";
+import KubernetesLearning from "./pages/kubernetesLearning/KubernetesLearning";
+import KubernetesCourse from "./pages/kubernetesCourse/KubernetesCourse";
+import KubernetesContent from "./pages/kubernetesContent/KubernetesContent.jsx";
+import KubernetesContentsec from './pages/kubernetesContentsec/KubernetesContentsec.jsx';
+
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useContext } from "react";
@@ -37,6 +42,11 @@ function App() {
         <Route path="/linuxCourse" element= {<LinuxCourse/>}/>
         <Route path="/linuxContent" element= {<LinuxContent/>}/>
         <Route path="/linuxContentsec" element= {<LinuxContentsec/>}/>
+        <Route path="/kubernetesLearning" element= {<KubernetesLearning/>}/>
+        <Route path="/kubernetesCourse" element= {<KubernetesCourse/>}/>
+        <Route path="/kubernetesContent" element= {<KubernetesContent/>}/>
+        <Route path="/kubernetesContentsec" element= {<KubernetesContentsec/>}/>
+        
         
         
 

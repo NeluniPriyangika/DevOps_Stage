@@ -117,12 +117,12 @@ function Learning() {
                       <button class="button-82-pushable">
                         <span class="button-82-shadow"></span>
                         <span class="button-82-edge"></span>
-                        <span class="button-82-front text">Container</span>
+                        <span class="button-82-front text">Docker</span>
                       </button>
                       <button class="button-82-pushable">
                         <span class="button-82-shadow"></span>
                         <span class="button-82-edge"></span>
-                        <span class="button-82-front text">Container Orchestrators</span>
+                        <span class="button-82-front text"><Link className='link' to="/kubernetesLearning">Kubernetes</Link></span>
                       </button>
                       <button class="button-82-pushable">
                         <span class="button-82-shadow"></span>

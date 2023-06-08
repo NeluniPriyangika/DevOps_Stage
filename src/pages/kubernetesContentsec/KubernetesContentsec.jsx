@@ -1,17 +1,18 @@
-import React, { useRef } from 'react';
-import "./pythonContentsec.css";
+import React, {useRef} from 'react';
+import "./kubernetesContentsec.css";
 import Topbar from '../../components/topbar/Topbar';
 import ReactPlayer from 'react-player';
 import {BsPlayCircle} from 'react-icons/bs';
 import {BsPlayCircleFill} from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
-const VIDEO_PATH = 'https://www.youtube.com/watch?v=RRr0kMLf8sE';
+const VIDEO_PATH = 'https://www.youtube.com/watch?v=AplluksKvzI';
 
-function PythonCourse() {
+
+function KubernetesContentsec() {
   const playerRef = useRef(null);
   return (
-    <div className='pymaindiv'>
+    <div className='kubernetesmaindiv'>
       <Topbar/>
       <div className='pythonCourse-container'>
         <div className='coursecontent'>
@@ -25,45 +26,45 @@ function PythonCourse() {
             <ul>
               <div className='listItem-div' >
                 <BsPlayCircleFill className='vedioicon'/>
-                <Link to="/pythonContent" className='link'>1. Introduction</Link>
+                <Link to="/kubernetesContent" className='link'>1. From Monolith to Microservices</Link>
               </div>
               <div className='listItem-div'>
                 <BsPlayCircleFill className='vedioicon'/>
-                <Link to="/pythonContentsec" className='link'>2. Variables</Link>
+                <Link to="/kubernetesContentsec" className='link'>2. Container Orchestration</Link>
               </div>
               <div className='listItem-div'>
                 <BsPlayCircleFill className='vedioicon'/>
-                <Link to="/pythonContent" className='link'>3. Strings</Link>
+                <Link to="/kubernetesContent" className='link'>3. Kubernetes</Link>
               </div>
               <div className='listItem-div'>
                 <BsPlayCircleFill className='vedioicon'/>
-                <Link to="/pythonContentsec" className='link'>4. Data structures</Link>
+                <Link to="/kubernetesContentsec" className='link'>4. Kubernetes Architecture</Link>
               </div>
               <div className='listItem-div'>
                 <BsPlayCircle className='vedioicon'/>
-                <Link to="/pythonContent" className='link'>5. Condition expressions</Link>
+                <Link to="/kubernetesContent" className='link'>5. Installing Kubernetes</Link>
               </div>
               <div className='listItem-div'>
                 <BsPlayCircle className='vedioicon'/>
-                <Link to="/pythonContentsec" className='link'>6. Loops</Link>
+                <Link to="/kubernetesContentsec" className='link'>6. Minikube-Installing Local Kubernetes Clusters</Link>
               </div>
               <div className='listItem-div'>
                 <BsPlayCircle className='vedioicon'/>
-                <Link to="/pythonContent" className='link'>7. Functions</Link>
+                <Link to="/kubernetesContent" className='link'>7. Accessing Minikube</Link>
               </div>
               <div className='listItem-div'>
                 <BsPlayCircle className='vedioicon'/>
-                <Link to="/pythonContentsec" className='link'>8. Classes and objects</Link>
+                <Link to="/kubernetesContentsec" className='link'>8. Kubernetes Building Blocks</Link>
               </div>
               <div className='listItem-div'>
                 <BsPlayCircle className='vedioicon'/>
-                <Link to="/pythonContent" className='link'>9. Modules and packages</Link>
+                <Link to="/kubernetesContent" className='link'>9. Kubernetes Volume Management</Link>
               </div>
               <div className='listItem-div'>
                 <BsPlayCircle className='vedioicon'/>
-                <Link to="/pythonContentsec" className='link'>10. File input output</Link>
+                <Link to="/kubernetesContentsec" className='link'>10. Kubernetes Community</Link>
               </div>
-            </ul>  
+            </ul> 
           </div>
         </div>
         <div className='video-container'>
@@ -80,10 +81,11 @@ function PythonCourse() {
               Est elit epicurei ei. Saepe vivendum id vel, libris volumus laboramus te qui. Dolore recusabo scripserit mea ut, no placerat repudiare dissentiunt nec, ut omnesque reprimique qui. His an homero similique. An his alii adversarium instructior, mea at aperiam mentitum complectitur. Eam augue tempor aperiam id, minimum comprehensam nec ei, mel ex omnis eleifend democritum.
             </p>
           </div>
-        </div> 
+        </div>  
       </div>
-    </div>
+  </div>
   )
-};
+}
 
-export default PythonCourse;
+export default KubernetesContentsec
+
