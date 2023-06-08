@@ -1,15 +1,111 @@
 .linuxPlayButton{
-    margin-top: 8px;
-    margin-bottom: 15px;
-    width: 200px;
-    height: 50px;
-    align-items: center;
-    background-color:#0a0a23;
-    color: #fff;
-    border-color: aqua;
-    border-width: 5px;
-    
-}
+        position: relative;
+        background: #444;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: none;
+        letter-spacing: 0.1rem;
+        font-size: 1rem;
+        padding: 0.8rem 1rem;
+        transition: 0.2s;
+        margin-bottom: 20px;
+      }
+      
+      .linuxPlayButton:hover {
+        letter-spacing: 0.2rem;
+        padding: 1.1rem 3.1rem;
+        background: var(--clr);
+        color: var(--clr);
+        box-shadow: 0 0 35px var(--clr);
+        animation: box 3s infinite;
+      }
+
+      .linuxPlayButton::before {
+        content: "";
+        position: absolute;
+        inset: 2px;
+        background: #272822;
+      }
+      
+      .linuxPlayButton span {
+        position: relative;
+        z-index: 1;
+      }
+      .linuxPlayButton i {
+        position: absolute;
+        inset: 0;
+        display: block;
+      }
+
+      .linuxPlayButton i::before {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 2px;
+        left: 80%;
+        top: -2px;
+        border: 2px solid var(--clr);
+        background: #272822;
+        transition: 0.2s;
+      }
+
+      .linuxPlayButton:hover i::before {
+        width: 15px;
+        left: 20%;
+        animation: move 3s infinite;
+      }
+
+      .linuxPlayButton i::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 2px;
+        left: 20%;
+        bottom: -2px;
+        border: 2px solid var(--clr);
+        background: #272822;
+        transition: 0.2s;
+      }
+
+      .linuxPlayButton:hover i::after {
+        width: 15px;
+        left: 80%;
+        animation: move 3s infinite;
+      }
+
+      @keyframes move {
+        0% {
+          transform: translateX(0);
+        }
+        50% {
+          transform: translateX(5px);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes box {
+        0% {
+          box-shadow: #27272c;
+        }
+        50% {
+          box-shadow: 0 0 25px var(--clr);
+        }
+        100% {
+          box-shadow: #27272c;
+        }
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
 
 .linuxfeedWrapper{
     display: grid;
@@ -17,10 +113,11 @@
     gap: 2.5rem;     
 }
 
-.cardContext{
-    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35); 
-    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
-    border-color: black;
+.linuxcardContext{
+    box-shadow: 11px 10px 15px -6px rgba(0,0,0,0.29);
+-webkit-box-shadow: 11px 10px 15px -6px rgba(0,0,0,0.29);
+-moz-box-shadow: 11px 10px 15px -6px rgba(0,0,0,0.29);
+border-width: 1.7px;
 }
 
 

@@ -23,9 +23,9 @@ const Profile = () => {
                           </div>
                           <div className="profileInfo">
                               <h4 className="profileInfoName">Neluni Priyangika</h4>
-                              <span className="profileInfoDesc">I am a student of NSBM green university and I am doing a management information systems
-                              degree. I have experience in Software engeneering and information managemnt. I am also a freelancer on upwork. Usually I work on web
-                              and software project6s </span>
+                              <span className="profileInfoDesc">As an undergraduate pursuing a BSc in Information and Communication Technology at the University of Sri Jayewardenepura, 
+                              I am a dedicated and passionate coder with a keen interest in Frontend development, DevOps, and FullStack. 
+                              I am currently expanding my skills in these areas through various online courses and personal projects.</span>
                           </div>
                       </dive>
                       <dive className="profileRightBottom">

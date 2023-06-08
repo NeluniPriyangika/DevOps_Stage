@@ -5,37 +5,35 @@
     background-color:white;
     -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35); 
     box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    
 } 
-.shareWrapper{
-    padding: 10px;
-}
-.shareImg{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-.shareTop{
+
+.skillsmaindiv{
     display: flex;
     align-items: center;
+    margin-left: 15px;
+    height: 70px;
 }
-.shareinput{
-    border:none;
-    width:80%;
-    background:transparent;
-    font-size:20px;
-    font-family: "Roboto Light";
-    margin-top:10px;
+
+.skillsdiv{
+    background-color: bisque;
     margin-left: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
 }
-.shareinput:focus{
-    outline:none;
+
+.showmorediv{
+   
 }
+
+.showmorelink{
+    font-size: 12px;
+    margin-left: 40%;
+}
+
+
 .shareHr{
-    margin:20px;
+    margin:3px;
 }
 .shareBottom{
     display: flex;
@@ -53,6 +51,7 @@
     margin-right: 15px;
     cursor: pointer;
 }
+
 .shareOptionText{
     margin-left: 10px;
 }

@@ -80,10 +80,14 @@ const data =[
     },
 ]
 
+const buttonStyle = {
+    '--clr': '#0FF0FC' 
+  };
+
 const LinuxLearningFeed =() => {
   return (
     <div className='linuxfeed'> 
-        <button className='linuxPlayButton'>Go to Linux playground</button>
+        <button className='linuxPlayButton' style={buttonStyle}><span>Go to Linux playground</span><i></i></button>
         <div className='linuxfeedWrapper'>
         
             {data.map(({id, image, title, description, go}) => {
@@ -91,7 +95,7 @@ const LinuxLearningFeed =() => {
                 
                         <Row className="g-4" key={id}>
                                 <Col >
-                                    <Card className='cardContext'>
+                                    <Card className='linuxcardContext'>
                                         <Card.Img variant="top" src={image} />
                                         <Card.Body>
                                             <Card.Title>{title}</Card.Title>
