@@ -1,0 +1,70 @@
+.shareIdea{
+    background-color: rgb(186, 232, 246);
+}
+
+.shareDesc{
+    background-color: rgb(186, 232, 246);
+}
+
+.shareIcon1{
+    color: rgb(29, 126, 81);
+    
+}
+
+.shareIcon2{
+    color: blue;   
+}
+
+.shareIcon3{
+    color: tomato;
+    
+}
+
+
+
+.shareIdea{
+    color: rgb(155, 212, 255);  
+}
+
+.shareHr {
+    height: 10px;
+}
+
+.share1{
+    width: 95%;
+    height: 290px;
+    border-radius: 10px;
+    background-color:white;
+    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    margin-top: 20px;
+}
+.discstopic{
+    font-size:20px;
+    margin-top: 15px;
+}
+.disDesc{
+    font-size:17px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.commentbox{
+    display: flex;
+
+}
+.comButton{
+    margin-left: 10px;
+}
+.share2{
+    width: 95%;
+    height: 200px;
+    border-radius: 10px;
+    background-color:white;
+    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    margin-top: 20px;
+}
+
+.shareButton{
+    background-color:rgb(147, 41, 92);
+}

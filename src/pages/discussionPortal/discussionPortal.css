@@ -1,0 +1,10 @@
+.discontainer{
+    display: flex;
+}
+.distopic{
+    margin-left: 10px;
+
+}
+.fontdis{
+    font-family: "Roboto Light";
+}
