@@ -8,4 +8,17 @@
 
 .cardh3{
     color: blue;
+    text-align: center;
+}
+
+.cardtitle{
+    text-align: center;
+}
+.star{
+    margin-right: 2px;
+    color: gold;
+}
+
+.cardheader{
+    text-align: center;
 }

@@ -15,9 +15,13 @@ export default function Post({ post } ) {
         setLike(isLiked ? like-1 : like+1)
         setisLiked(!isLiked)
     }
-  const user = Users.filter(u=>u.id===1);
-  console.log(user[0].username);
-  console.log(post);
+    const userId = 2; // Specify the desired user ID
+    const user = Users.find(u => u.id === userId);
+
+    if (user) {
+    console.log(user.username);
+    console.log(post)
+    }
     return (
         <div>
             <div className="post">
@@ -25,9 +29,9 @@ export default function Post({ post } ) {
                     <div className="postTop">
                         <div className="topLeft">
                             <img className="profilePic"
-                             src={Users.filter((u) => u.id === post?.userId)[0].profilePicture} alt="" />
-                            <span className="postUsername">
-                                {Users.filter((u) => u.id === post?.userId)[0].username}</span>
+                             src={user.profilePicture} alt="" />
+                            <span className="postUsername">{user.username}</span>
+                            <span className="postUserpage">{post.page}</span>
                             <span className="postDate">{post.date}</span>
                         </div> 
                         <div className="topRight">
@@ -35,37 +39,11 @@ export default function Post({ post } ) {
                         </div>
                     </div>
                     <div className="ideaTitle">
-                        <span>I have an idea to start a sowtware company </span>
+                        <span>{post.desc}</span>
                     </div>
                     <div className="postCenter">
                         <span className="postText">{post?.description}</span>
-                        <span className="read">Read More</span>
-                        <div className="postItems">
-                            <div className="Box">
-                                <div className="boxText">
-                                    <span>Estimaded cost: </span>
-                                    <span>Rs.500000</span>
-                                </div>
-                            </div>
-                            <div className="Box">
-                                <div className="boxText">
-                                    <span>My experience: </span>
-                                    <span>Software Engeneering</span>
-                                </div>
-                            </div>
-                            <div className="Box">
-                                <div className="boxText">
-                                    <span>Estimaded Time:  </span>
-                                    <span>1 year </span>
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <div className="proposal">
-                            <MdAssignment htmlColor="blue"/>
-                            <span>Download Business Proposal</span>
-                        </div>
+                        <div><span className="read">Read More...</span></div>
                         <img src={post.photo} alt="" className="postImage" />
                     </div>
                     <div className="postBottom">

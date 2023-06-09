@@ -1,61 +1,138 @@
-.shareIdea{
-    background-color: rgb(186, 232, 246);
-}
-
-.shareDesc{
-    background-color: rgb(186, 232, 246);
-}
-
-.shareIcon1{
-    color: rgb(29, 126, 81);
-    
-}
-
-.shareIcon2{
-    color: blue;   
-}
-
-.shareIcon3{
-    color: tomato;
-    
-}
-
-
-
-.shareIdea{
-    color: rgb(155, 212, 255);  
-}
-
-.shareHr {
-    height: 10px;
-}
-
-.share1{
+.discuss-Share{
     width: 95%;
-    height: 290px;
+    height: 230px;
     border-radius: 10px;
     background-color:white;
     -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
     box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
     margin-top: 20px;
 }
-.discstopic{
+
+.discuss-shareTop{
+    display: flex;
+    align-items: center;
+}
+
+.discuss-shareDesc{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(186, 232, 246);
+    width:80%;
+    height:30%;
+    border-radius: 10px;
+}
+
+.discuss-shareDesc:focus{
+    outline:none;
+}
+
+.discuss-shareIdea{
+    margin-left: 70px;
+    background-color: rgb(186, 232, 246);
+    width:80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+.discuss-shareinput{
+    border:none;
+    width:80%;
+    background:transparent;
+    font-size:20px;
+    font-family: "Roboto Light";
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+.discuss-shareinput:focus{
+    outline:none;
+}
+
+.discuss-shareHr{
+    margin:20px;
+    height: 10px;
+}
+
+.discuss-shareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discuss-shareOptions{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+
+.discuss-shareOption{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.discuss-shareOptionText{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.discuss-shareButton{
+    background-color:rgb(147, 41, 92);
+    border:none;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color:white;
+}
+
+
+.discuss-shareIcon1{
+    color: rgb(29, 126, 81);
+    
+}
+
+.discuss-shareIcon2{
+    color: blue;   
+}
+
+.discuss-shareIcon3{
+    color: tomato;
+    
+}
+
+.discuss-shareImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.discuss-discstopic{
     font-size:20px;
     margin-top: 15px;
 }
-.disDesc{
+.discuss-disDesc{
     font-size:17px;
     margin-left: 60px;
     margin-right: 40px;
 }
-.commentbox{
+.discuss-commentbox{
     display: flex;
 
 }
-.comButton{
+.discuss-comButton{
     margin-left: 10px;
 }
-.share2{
+.discuss-share1{
     width: 95%;
     height: 200px;
     border-radius: 10px;
@@ -65,6 +142,31 @@
     margin-top: 20px;
 }
 
-.shareButton{
-    background-color:rgb(147, 41, 92);
+.discuss-share1{
+    width: 95%;
+    height: 260px;
+    border-radius: 10px;
+    background-color:white;
+    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    margin-top: 20px;
 }
+.discuss-discstopic{
+    font-size:20px;
+    margin-top: 15px;
+}
+.discuss-disDesc{
+    font-size:17px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.discuss-commentbox{
+    display: flex;
+    margin-left: 49px;
+
+}
+.discuss-comButton{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+

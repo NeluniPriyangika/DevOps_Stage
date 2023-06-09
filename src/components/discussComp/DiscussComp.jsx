@@ -9,182 +9,144 @@ import Man from '../../assests/man.jpg';
 function DiscussComp(props) {
     return (
         <div>
-        <div className="share1">
-            <div className="shareTop">
-                <img className="shareImg" src={Me} alt=""/>
-                <div className="shareIdea">
-                    <input placeholder="Discussion Topic "
-                           className="shareinput" />
-                </div>
-            </div>
-            <div className="shareDesc">
-                <input placeholder="Description "
-                       className="shareinput" />
-            </div>
-
-            <div className="dropContainer">
-
-            </div>
-
-            <hr className="shareHr" />
-
-            <div className="shareBottom">
-                <div className="shareOptions">
-                    <div className="shareOption">
-                        <MdPermMedia size="25px" className="shareIcon1"/>
-                        <span className="shareOptionText">Add Photos/video</span>
+            <div className="discuss-Share">
+                <div className="discuss-shareTop">
+                    <img className="discuss-shareImg" src={Me} alt=""/>
+                    <div className="discuss-shareDesc">
+                        <input placeholder="Discussion Topic"
+                            className="discuss-shareinput" />
                     </div>
-                    <div className="shareOption">
-                        <MdLabel size="25px" className="shareIcon2"/>
-                        <span className="shareOptionText">Tag People</span>
+                </div>
+                <div className="discuss-shareIdea">
+                    <input placeholder="discuss-Description "
+                        className="discuss-shareinput" />
+                </div>
+
+                <hr className="discuss-shareHr" />
+
+                <div className="discuss-shareBottom">
+                    <div className="discuss-shareOptions">
+                        <div className="discuss-shareOption">
+                            <MdPermMedia size="25px" className="discuss-shareIcon1"/>
+                            <span className="discuss-shareOptionText">Add Photos/video</span>
+                        </div>
+                        <div className="discuss-shareOption">
+                            <MdLabel size="25px" className="discuss-shareIcon2"/>
+                            <span className="discuss-shareOptionText">Tag People</span>
+                        </div>
+                    </div>
+                    <button className="discuss-shareButton">Share</button>
+                </div>
+            </div>
+            {/*-------------------------------------------------------------------*/}
+            <div className="discuss-share1">
+                <div className="discuss-shareTop">
+                    <img className="discuss-shareImg" src={Girl} alt=""/>
+                    <div>
+                        <h1 className="discuss-discstopic">
+                            What is the CI/CD pipeline in DevOps?
+                        </h1>
+
                     </div>
 
                 </div>
-                <button className="shareButton">Share</button>
+                <h4 className="discuss-disDesc">
+                    Lorem ipsum dolor sit amet, ius utamur oblique quaestio ne. Eu euismod gubergren definitiones mei, ex illud albucius eum. Iisque ornatus docendi cu mel. Ei mei magna ancillae expetendis, no ludus aliquam tincidunt quo. Consul vocent interpretaris vix id.
+                    Ei iisque principes disputationi nam, modo discere ius et. Discere delenit vivendo pro ad, omnis imperdiet id ius. Sit vide dicat ocurreret at, ex duo soluta evertitur.
+                </h4>
 
-            </div>
-
-        </div>
-           {/*-------------------------------------------------------------------*/}
-    <div className="share2">
-        <div className="shareTop">
-            <img className="shareImg" src={Girl} alt=""/>
-            <div>
-                <h1 className="discstopic">
-                    What is the CI/CD pipeline in DevOps?
-                </h1>
-
-            </div>
-
-        </div>
-        <h4 className="disDesc">
-            Lorem ipsum dolor sit amet, ius utamur oblique quaestio ne. Eu euismod gubergren definitiones mei, ex illud albucius eum. Iisque ornatus docendi cu mel. Ei mei magna ancillae expetendis, no ludus aliquam tincidunt quo. Consul vocent interpretaris vix id.
-            Ei iisque principes disputationi nam, modo discere ius et. Discere delenit vivendo pro ad, omnis imperdiet id ius. Sit vide dicat ocurreret at, ex duo soluta evertitur.
-        </h4>
-
-        <div className="dropContainer">
-
-        </div>
-
-
-
-        <div className="shareBottom">
-            <div className="shareOptions">
-                <div className="shareOption">
-                    <MdFavorite size= "25px"  className="shareIcon3"/>
-                    <span className="shareOptionText">Interested</span>
+                <div className="discuss-shareBottom">
+                    <div className="discuss-shareOptions">
+                        <div className="discuss-shareOption">
+                            <MdFavorite size= "25px"  className="discuss-shareIcon3"/>
+                            <span className="discuss-shareOptionText">Interested</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="discuss-commentbox">
+                    <div className="discuss-shareDesc">
+                        <input placeholder="comment "
+                                className="discuss-shareinput" />
+                    </div>
+                    <div>
+                        <div className="discuss-comButton">
+                            <button className="discuss-shareButton">Add Comment</button>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div className="discuss-share1">
+                <div className="discuss-shareTop">
+                    <img className="discuss-shareImg" src={Man} alt=""/>
+                    <div>
+                        <h1 className="discuss-discstopic">
+                            I would like to share my new achivement in Devops like this...
+                        </h1>
+                    </div>
+                </div>
+                <h4 className="discuss-disDesc">
+                    Lorem ipsum dolor sit amet, ius utamur oblique quaestio ne. Eu euismod gubergren definitiones mei, ex illud albucius eum. Iisque ornatus docendi cu mel. Ei mei magna ancillae expetendis, no ludus aliquam tincidunt quo. Consul vocent interpretaris vix id.
+                    Ei iisque principes disputationi nam, modo discere ius et. Discere delenit vivendo pro ad, omnis imperdiet id ius. Sit vide dicat ocurreret at, ex duo soluta evertitur.
+                </h4>
 
+                <div className="discuss-shareBottom">
+                    <div className="discuss-shareOptions">
+                        <div className="discuss-shareOption">
+                            <MdFavorite size= "25px" className="discuss-shareIcon3"/>
+                            <span className="discuss-shareOptionText">Interested</span>
+                        </div>
+                    </div>
+                </div>
 
-
-        </div>
-      <div className="commentbox">
-          <div className="shareDesc">
-              <input placeholder="comment "
-                     className="shareinput" />
-          </div>
-          <div>
-              <div className="comButton">
-                  <button className="shareButton">Add Comment</button>
-              </div>
-          </div>
-      </div>
-
-    </div>
-    <div className="share2">
-        <div className="shareTop">
-            <img className="shareImg" src={Man} alt=""/>
-            <div>
-                <h1 className="discstopic">
-                    I would like to share my new achivement in Devops like this...
-                </h1>
-
-            </div>
-
-        </div>
-        <h4 className="disDesc">
-            Lorem ipsum dolor sit amet, ius utamur oblique quaestio ne. Eu euismod gubergren definitiones mei, ex illud albucius eum. Iisque ornatus docendi cu mel. Ei mei magna ancillae expetendis, no ludus aliquam tincidunt quo. Consul vocent interpretaris vix id.
-            Ei iisque principes disputationi nam, modo discere ius et. Discere delenit vivendo pro ad, omnis imperdiet id ius. Sit vide dicat ocurreret at, ex duo soluta evertitur.
-        </h4>
-
-        <div className="dropContainer">
-
-        </div>
-
-
-
-        <div className="shareBottom">
-            <div className="shareOptions">
-                <div className="shareOption">
-                    <MdFavorite size= "25px" className="shareIcon3"/>
-                    <span className="shareOptionText">Interested</span>
+                <div className="discuss-commentbox">
+                    <div className="discuss-shareDesc">
+                        <input placeholder="comment "
+                                className="discuss-shareinput" />
+                    </div>
+                    <div>
+                        <div className="discuss-comButton">
+                            <button className="discuss-shareButton">Add Comment</button>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div className="discuss-share1">
+                <div className="discuss-shareTop">
+                    <img className="discuss-shareImg" src={Women} alt=""/>
+                    <div>
+                        <h1 className="discuss-discstopic">
+                            I would like to kanow about Kubernetes.
+                        </h1>
 
+                    </div>
 
-
-        </div>
-      <div className="commentbox">
-          <div className="shareDesc">
-              <input placeholder="comment "
-                     className="shareinput" />
-          </div>
-          <div>
-              <div className="comButton">
-                  <button className="shareButton">Add Comment</button>
-              </div>
-          </div>
-      </div>
-
-    </div>
-    <div className="share2">
-        <div className="shareTop">
-            <img className="shareImg" src={Women} alt=""/>
-            <div>
-                <h1 className="discstopic">
-                    I would like to kanow about Kubernetes.
-                </h1>
-
-            </div>
-
-        </div>
-        <h4 className="disDesc">
-            Lorem ipsum dolor sit amet, ius utamur oblique quaestio ne. Eu euismod gubergren definitiones mei, ex illud albucius eum. Iisque ornatus docendi cu mel. Ei mei magna ancillae expetendis, no ludus aliquam tincidunt quo. Consul vocent interpretaris vix id.
-            Ei iisque principes disputationi nam, modo discere ius et. Discere delenit vivendo pro ad, omnis imperdiet id ius. Sit vide dicat ocurreret at, ex duo soluta evertitur. 
-        </h4>
-
-        <div className="dropContainer">
-
-        </div>
-
-
-
-        <div className="shareBottom">
-            <div className="shareOptions">
-                <div className="shareOption">
-                    <MdFavorite size= "25px" className="shareIcon3"/>
-                    <span className="shareOptionText">Interested</span>
                 </div>
+                <h4 className="discuss-disDesc">
+                    Lorem ipsum dolor sit amet, ius utamur oblique quaestio ne. Eu euismod gubergren definitiones mei, ex illud albucius eum. Iisque ornatus docendi cu mel. Ei mei magna ancillae expetendis, no ludus aliquam tincidunt quo. Consul vocent interpretaris vix id.
+                    Ei iisque principes disputationi nam, modo discere ius et. Discere delenit vivendo pro ad, omnis imperdiet id ius. Sit vide dicat ocurreret at, ex duo soluta evertitur. 
+                </h4>
+
+                <div className="discuss-shareBottom">
+                    <div className="discuss-shareOptions">
+                        <div className="discuss-shareOption">
+                            <MdFavorite size= "25px" className="discuss-shareIcon3"/>
+                            <span className="discuss-shareOptionText">Interested</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="discuss-commentbox">
+                    <div className="discuss-shareDesc">
+                        <input placeholder="comment "
+                                className="discuss-shareinput" />
+                    </div>
+                    <div>
+                        <div className="discuss-comButton">
+                            <button className="discuss-shareButton">Add Comment</button>
+                        </div>
+                    </div>
+                </div>       
             </div>
-
-
-
-        </div>
-      <div className="commentbox">
-          <div className="shareDesc">
-              <input placeholder="comment "
-                     className="shareinput" />
-          </div>
-          <div>
-              <div className="comButton">
-                  <button className="shareButton">Add Comment</button>
-              </div>
-          </div>
-      </div>
-        
-
-    </div>
         </div>
     );
 }

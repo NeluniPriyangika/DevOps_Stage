@@ -11,6 +11,8 @@
     border-radius: 10px;
     font-size:30px;
     margin-top: 10px;
+    color: #5252ea;
+    margin-left: 20px;
 
 }
 .postWrapper{
@@ -37,13 +39,23 @@
     margin: 0 10px;
 
 }
+
+.postUserpage{
+    
+}
+
 .postDate{
     font-size: 12px;
+    margin-left: 20px;
 }
  
 .postCenter{
-    margin: 20px 0;
+    margin: 20px;
+    text-align: justify;
+    text-justify: inter-word;
 }
+
+
 .postImage{
     margin-top: 20px;
     width: 100%;
@@ -121,6 +133,7 @@
 }
 .postText{
     font-family:"Roboto Light";
+    
 }
 
 .postItems{
@@ -146,3 +159,6 @@
     margin-right: 10px;
     cursor: pointer;
 }
+
+
+

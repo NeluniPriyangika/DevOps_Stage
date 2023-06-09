@@ -17,7 +17,7 @@
                <div className='skillsdiv'>Containerization</div> 
                <div className='skillsdiv'>CI/CD pipeline</div>  
              </div>
-             <div className='showmorediv'><Link className='showmorelink'>Show more skills</Link></div>
+             <div className='showmorediv'><Link className='showmorelink'>View/Edit skills</Link></div>
              <hr className="shareHr" />
              <div className="skillsmaindiv">
                <h5>Cetifications & License</h5>
@@ -26,7 +26,7 @@
                <div className='skillsdiv'>Decker</div> 
                <div className='skillsdiv'>Kubernetes</div>
              </div>
-             <div className='showmorediv'><Link className='showmorelink'>Show more skills</Link></div>
+             <div className='showmorediv'><Link className='showmorelink'>View/Edit skills</Link></div>
              <hr className="shareHr" />
              <div className="skillsmaindiv">
                <h5>Following Courses</h5>
@@ -34,7 +34,7 @@
                <div className='skillsdiv'>Linux Fundermentals</div> 
                <div className='skillsdiv'>Best practicers with Decker & Kubernetes</div>
              </div>
-             <div className='showmorediv'><Link className='showmorelink'>Show more skills</Link></div>
+             <div className='showmorediv'><Link className='showmorelink'>View/Edit skills</Link></div>
              <hr className="shareHr" />
              
              <div className="shareBottom">
@@ -56,7 +56,7 @@
                          <span className="shareOptionText">Write Articles</span>
                      </div>
                  </div>
-                 <button className="shareButton">Share</button>
+                 <button className="shareButton">Add Post</button>
  
              </div>
          </div>

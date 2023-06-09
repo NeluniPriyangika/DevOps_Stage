@@ -23,12 +23,12 @@ export default function Sodebar() {
                <ul className="sidebarList">
                    <li className="sidebarListItem">
                        <MdFormatSize/>
-                       <Link className="sidebarListText" to="/discussion">Discussions</Link>
+                       <Link className="sidebarListText" to="/discussPortal">Discussions</Link>
                    </li>
                    <li className="sidebarListItem">
                        <MdTrendingUp/>
                        <span className="sidebarListText">
-                           Trending Ideas
+                           Trending Courses
                        </span>
                    </li>
                    <li className="sidebarListItem">
@@ -40,7 +40,7 @@ export default function Sodebar() {
                    <li className="sidebarListItem">
                        <MdFavorite/>
                        <span className="sidebarListText">
-                           Favourite Ideas
+                           Favourite Cousers
                        </span>
                    </li>
                    <li className="sidebarListItem">
@@ -51,7 +51,7 @@ export default function Sodebar() {
                    </li>
                    <li className="sidebarListItem">
                        <MdAssignment/>
-                       <Link className="sidebarListText" to="/proposals">Business Proposals </Link>
+                       <Link className="sidebarListText" to="/learning">DevOps Learning</Link>
                    </li>
                    <li className="sidebarListItem">
                        <MdGroups/>
@@ -64,7 +64,7 @@ export default function Sodebar() {
                    <li className="sidebarListItem">
                        <MdAnnouncement/>
                        <span className="sidebarListText">
-                           Popular Investors
+                           Skill Quizers
                        </span>
                    </li>
                    <li className="sidebarListItem">

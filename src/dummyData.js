@@ -54,31 +54,33 @@ export const Users = [
   export const Posts = [
     {
       id: 1,
-      desc: "Love For All, Hatred For None.",
-      photo: "assets/post/1.jpeg",
+      desc: "Successfully completed the Programming in Python - 1",
+      photo: "https://i.ibb.co/XWLj2bg/1679200049046.jpg",
+      page:">  Post",
       date: "5 mins ago",
       userId: 1,
       like: 32,
       comment: 9,
-      description:"I am a software engeneering student from NSBm green university of sri lanka. I have a good understandig about software development " +
-          "and web development. And I have completed a software engeneer internship in ABCD company. So that I have a good understanding about how a software is made and the main functions of software development." +
-          "so that I am hoping to start a software company. ",
+      description:"I am excited 🤩 to share that I have successfully completed the Programming in Python - 1. Python for Beginners course offered by UOM! This course has equipped me with fundamental programming concepts, data types, and control structures in Python, which has helped me develop the skills to create simple Python programs. I am proud to have earned my certificate and look forward to applying my newfound knowledge in my future endeavours."
     },
     {
       id: 2,
-      photo: "assets/post/2.jpeg",
+      desc:"Are you ready to dive into the future of DevOps?",
+      photo: "https://i.ibb.co/kSDB5Hn/1681453213831.jpg",
+      page:">  Post",
       date: "15 mins ago",
       userId: 2,
       like: 2,
       comment: 1,
-      description:"I am a software engeneering student from NSBm green university of sri lanka. I have a good understandig about software development " +
-          "and web development. And I have completed a software engeneer internship in ABCD company. So that I have a good understanding about how a software is made and the main functions of software development." +
-          "so that I am hoping to start a software company. ",
+      description:"Let's talk about DevOps 2.0.This isn't just a minor upgrade! DevOps 2.0 is a complete game-changer. It's all about automating every aspect of the software development process, from testing to deployment."+
+      " But is automation the key to success, or are we in danger of losing the human touch? Next, let's take a look at serverless computing."+
+      "No, it's not a world without servers, but rather a way to build and run applications without the need for dedicated servers. But will this new approach to computing lead to a new era of innovation, or will it create new security challenges?",
     },
     {
       id: 3,
       desc: "Every moment is a fresh beginning.",
-      photo: "assets/post/3.jpeg",
+      photo: "https://i.ibb.co/TbVYd6d/pexels-ketut-subiyanto-4307869.jpg",
+      page:">  Discussion Portal",
       date: "1 hour ago",
       userId: 3,
       like: 61,
@@ -87,7 +89,8 @@ export const Users = [
     },
     {
       id: 4,
-      photo: "assets/post/4.jpeg",
+      photo: "https://i.ibb.co/YBDPRWb/pexels-nagy-szabi-4134204.jpg",
+      page:">  Discussion Portal",
       date: "4 hours ago",
       userId: 4,
       like: 7,
@@ -95,7 +98,8 @@ export const Users = [
     },
     {
       id: 5,
-      photo: "assets/post/5.jpeg",
+      photo: "https://i.ibb.co/vLsSK4s/pexels-marlon-schmeiski-3839910.jpg",
+      page:">  Post",
       date: "5 hours ago",
       userId: 5,
       like: 23,
@@ -103,7 +107,8 @@ export const Users = [
     },
     {
       id: 6,
-      photo: "assets/post/6.jpeg",
+      photo: "https://i.ibb.co/c6xjTVS/pexels-marcelo-chagas-6347176.jpg",
+      page:">  Post",
       date: "1 day ago",
       userId: 6,
       like: 44,
@@ -111,7 +116,8 @@ export const Users = [
     },
     {
       id: 7,
-      desc: "Never regret anything that made you smile.",
+      desc: "https://i.ibb.co/mvLnTpj/pexels-juan-vargas-6267570.jpg",
+      page:">  Discussion Portal",
       photo: "assets/post/7.jpeg",
       date: "2 days ago",
       userId: 7,
@@ -120,7 +126,8 @@ export const Users = [
     },
     {
       id: 8,
-      photo: "assets/post/8.jpeg",
+      photo: "https://i.ibb.co/TbVYd6d/pexels-ketut-subiyanto-4307869.jpg",
+      page:">  Post",
       date: "3 days ago",
       userId: 8,
       like: 15,
@@ -128,8 +135,9 @@ export const Users = [
     },
     {
       id: 9,
-      desc: "Change the world by being yourself.",
-      photo: "assets/post/9.jpeg",
+      desc: "I am a software engeneering student from NSBm green university of sri lanka. I have a good understandig about software development and web development. And I have completed a software engeneer internship in ABCD company. ",
+      page:">  Discussion Portal",
+      photo: "https://i.ibb.co/YBDPRWb/pexels-nagy-szabi-4134204.jpg",
       date: "5 days ago",
       userId: 9,
       like: 11,
@@ -137,7 +145,8 @@ export const Users = [
     },
     {
       id: 10,
-      photo: "assets/post/10.jpeg",
+      photo: "https://i.ibb.co/YBDPRWb/pexels-nagy-szabi-4134204.jpg",
+      page:">  Discussion Portal",
       date: "1 week ago",
       userId: 10,
       like: 104,
