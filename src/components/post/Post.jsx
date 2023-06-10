@@ -3,7 +3,6 @@ import "./Posts.css"
 import {MdMoreVert} from 'react-icons/md'
 //import{MdThumbUpAlt} from 'react-icons/md';
 import {MdFavorite} from 'react-icons/md';
-import {MdAssignment} from 'react-icons/md';
 import {MdMessage} from 'react-icons/md';
 import { Users } from "../../dummyData";
 

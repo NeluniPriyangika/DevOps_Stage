@@ -1,5 +1,27 @@
+.discuss-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.arrows{
+   margin-top: 10px;
+   margin-right: 20px;   
+}
+
+.arrowsWord{
+    text-align: center;
+}
+
+.arrowsIcon{
+  background-color: rgb(227, 226, 226);
+  border-radius: 50%;
+  
+}
+
 .discuss-Share{
-    width: 95%;
+    width: 98%;
     height: 230px;
     border-radius: 10px;
     background-color:white;
@@ -86,7 +108,7 @@
     padding: 7px;
     border-radius: 5px;
     font-weight: 500;
-    margin-right: 20px;
+    margin-right: 10px;
     cursor: pointer;
     color:white;
 }
@@ -130,20 +152,11 @@
 
 }
 .discuss-comButton{
-    margin-left: 10px;
-}
-.discuss-share1{
-    width: 95%;
-    height: 200px;
-    border-radius: 10px;
-    background-color:white;
-    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
-    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+    margin-left: 20px;
     margin-top: 20px;
 }
-
 .discuss-share1{
-    width: 95%;
+    width: 87%;
     height: 260px;
     border-radius: 10px;
     background-color:white;
@@ -151,6 +164,7 @@
     box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
     margin-top: 20px;
 }
+
 .discuss-discstopic{
     font-size:20px;
     margin-top: 15px;
@@ -165,8 +179,5 @@
     margin-left: 49px;
 
 }
-.discuss-comButton{
-    margin-left: 80px;
-    margin-top: 20px;
-}
+
 
