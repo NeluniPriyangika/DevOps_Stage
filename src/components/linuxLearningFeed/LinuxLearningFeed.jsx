@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import LinuxImage from "../../assests/linux.jpg";
 import {AiFillStar,AiOutlineStar} from 'react-icons/ai';
+import {Link} from 'react-router-dom';
 
 const data =[
     {
@@ -87,7 +88,7 @@ const buttonStyle = {
 const LinuxLearningFeed =() => {
   return (
     <div className='linuxfeed'> 
-        <button className='linuxPlayButton' style={buttonStyle}><span>Go to Linux playground</span><i></i></button>
+        <button className='linuxPlayButton' style={buttonStyle}><span><Link to={'/linuxTerminal'} className='link'>Go to Linux playground</Link></span><i></i></button>
         <div className='linuxfeedWrapper'>
         
             {data.map(({id, image, title, description, go}) => {
