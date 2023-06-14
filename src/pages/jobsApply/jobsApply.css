@@ -1,0 +1,68 @@
+.job-application-page {
+    padding: 20px;
+  }
+  
+  .job-post {
+    margin-bottom: 20px;
+  }
+  
+  .read-full-job-description {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-section {
+    margin-bottom: 20px;
+  }
+  
+  .apply-message {
+    margin-bottom: 10px;
+  }
+  
+  .apply-with-profile {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-application {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .job-application h2 {
+    margin-bottom: 20px;
+  }
+  
+  .job-application form div {
+    margin-bottom: 10px;
+  }
+  
+  .job-application form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .job-application form input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+  }
+  
+  .regular-apply {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

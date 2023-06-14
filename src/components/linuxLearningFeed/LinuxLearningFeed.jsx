@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import LinuxImage from "../../assests/linux.jpg";
 import {AiFillStar,AiOutlineStar} from 'react-icons/ai';
-
+import {Link} from 'react-router-dom';
 
 const data =[
     {
@@ -79,28 +79,16 @@ const data =[
         description:"This online Python course is part of Microsoft's Python learning paths. It prepares students with the concepts and basic skills to pursue more advanced learning.",
         go:"/linuxCourse"
     },
-
 ]
 
 const buttonStyle = {
     '--clr': '#0FF0FC' 
   };
 
-
-
 const LinuxLearningFeed =() => {
-
-    const openInNewTab = (url) => {
-        const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
-        if (newWindow) newWindow.opener = null;
-      };
   return (
     <div className='linuxfeed'> 
-        <button className='linuxPlayButton' style={buttonStyle} onClick={() => openInNewTab('/linuxTerminal')}>
-            <span>Go to Linux playground</span>
-            <i></i>
-        </button>
-        
+        <button className='linuxPlayButton' style={buttonStyle}><span><Link to={'/linuxTerminal'} className='link'>Go to Linux playground</Link></span><i></i></button>
         <div className='linuxfeedWrapper'>
         
             {data.map(({id, image, title, description, go}) => {

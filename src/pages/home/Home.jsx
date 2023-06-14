@@ -57,7 +57,7 @@ export default function Home() {
             <img className='image2' src='https://i.ibb.co/2c5HXNf/5-tips-to-prepare-for-group-discussion-rounds.webp' alt=''/>
             <div class="text">
               <h1>Discussion Portal</h1>
-              <h2 class="animate-text"><Link className='link' to="/discussPortal">Start a new discussion or ask question here<AiOutlineArrowRight/> </Link>.</h2>
+              <h2 class="animate-text"><Link className='link' to="/discussPortal">Start a new discussion or ask question here<AiOutlineArrowRight/> </Link></h2>
               <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
               <div class="dots">
                   <span></span>
@@ -85,7 +85,7 @@ export default function Home() {
           <img className='image2' src='https://i.ibb.co/WDdnyP3/situations-vacant-12000-jobs-on-offer-in-edtech.webp' alt=''/>
           <div class="text">
             <h1>Jobs For You</h1>
-            <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
+            <h2 class="animate-text"><Link className='link' to="/jobs">Explore ne jobs and apply<AiOutlineArrowRight/> </Link></h2>
             <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
             <div class="dots">
               <span></span>
