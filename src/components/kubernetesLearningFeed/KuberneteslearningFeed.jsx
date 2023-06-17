@@ -82,10 +82,14 @@ const data =[
     },
 ]
 
+const buttonStyle = {
+    '--clr': '#0FF0FC' 
+  };
+
 const KuberneteslearningFeed =()=> {
   return (
     <div className='pythonfeed'> 
-        <button className='kubernetesPlayButton'><span><Link to='/kubernetesTerminal' className='link' target='_blank'>Go to kubernetes playground</Link></span></button>
+        <button className='kubernetesPlayButton' style={buttonStyle}><span><Link to='/kubernetesTerminal' className='link' target='_blank'>Go to kubernetes playground</Link></span></button>
         <div className='pythonfeedWrapper'>
         
             {data.map(({id, image, title, description, go}) => {
