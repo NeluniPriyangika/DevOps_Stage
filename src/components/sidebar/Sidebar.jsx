@@ -7,10 +7,10 @@ import {MdFormatSize} from 'react-icons/md';
 import {Users} from "../../dummyData";
 import CloseFriends from "../closeFriends/CloseFriends";
 import {MdTrendingUp} from 'react-icons/md';
-import {MdAssistantPhoto} from 'react-icons/md';
 import {MdAssignment} from 'react-icons/md';
 import {MdFavorite} from 'react-icons/md';
-import {MdOutlineStorefront} from 'react-icons/md';
+import {CgProfile} from 'react-icons/cg';
+import {MdOutlineStorefront, MdOutlineWork, MdOutlineDynamicFeed} from 'react-icons/md';
 import Spinner from 'react-bootstrap/Spinner'
 import {Button} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
@@ -21,26 +21,38 @@ export default function Sodebar() {
         <div className= "sidebar">
             <div className="sidebarWrapper">
                <ul className="sidebarList">
+                    <li className="sidebarListItem">
+                       <CgProfile/>
+                       <Link className="sidebarListText" to="/profile">Profile</Link>
+                   </li>
                    <li className="sidebarListItem">
                        <MdFormatSize/>
-                       <Link className="sidebarListText" to="/discussPortal">Discussions</Link>
+                       <Link className="sidebarListText" to="/discussPortal">Discussion portal</Link>
                    </li>
                    <li className="sidebarListItem">
-                       <MdTrendingUp/>
+                       <MdOutlineWork/>
+                       <Link className="sidebarListText" to="/jobs">Job portal</Link>
+                   </li>
+                   <li className="sidebarListItem">
+                       <MdOutlineDynamicFeed />
                        <span className="sidebarListText">
-                           Trending Courses
+                           Feed
                        </span>
                    </li>
                    <li className="sidebarListItem">
-                       <MdAssistantPhoto />
-                       <span className="sidebarListText">
-                           Relevant Ideas
-                       </span>
+                       <MdAssignment/>
+                       <Link className="sidebarListText" to="/learning">DevOps Learning</Link>
                    </li>
                    <li className="sidebarListItem">
                        <MdFavorite/>
                        <span className="sidebarListText">
                            Favourite Cousers
+                       </span>
+                   </li>
+                   <li className="sidebarListItem">
+                       <MdTrendingUp />
+                       <span className="sidebarListText">
+                           Trending coursers
                        </span>
                    </li>
                    <li className="sidebarListItem">
@@ -50,22 +62,18 @@ export default function Sodebar() {
                        </span>
                    </li>
                    <li className="sidebarListItem">
-                       <MdAssignment/>
-                       <Link className="sidebarListText" to="/learning">DevOps Learning</Link>
-                   </li>
-                   <li className="sidebarListItem">
                        <MdGroups/>
-                       <Link className="sidebarListText" to="/advisors">Advisors </Link>
-                   </li>
-                   <li className="sidebarListItem">
-                       <MdGroups/>
-                       <Link className="sidebarListText" to="/groups">My Groups </Link>
+                       <Link className="sidebarListText" to="/professionals">Professionals</Link>
                    </li>
                    <li className="sidebarListItem">
                        <MdAnnouncement/>
                        <span className="sidebarListText">
                            Skill Quizers
                        </span>
+                   </li>
+                   <li className="sidebarListItem">
+                       <MdGroups/>
+                       <Link className="sidebarListText" to="/groups">My Groups </Link>
                    </li>
                    <li className="sidebarListItem">
                        <MdOutlineStorefront/>

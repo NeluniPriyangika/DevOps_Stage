@@ -40,9 +40,9 @@ export default function Home() {
         <div class="tile"> 
           <img className='image2' src='https://i.ibb.co/gdwdWKG/digital-skills2-jpg.jpg' alt=''/>
           <div class="text">
-            <div className='homeTiletitle'><h1>Skills</h1></div>
-            <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
-            <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+            <div className='homeTiletitle'><h1>Feed</h1></div>
+            <h2 class="animate-text">Vew all Feed</h2>
+            <p class="animate-text">You can view in here any other posts, photos, videos any thing others shared.</p>
             <div class="dots">
               <span></span>
               <span></span>
@@ -58,7 +58,7 @@ export default function Home() {
             <div class="text">
               <div className='homeTiletitle'><h1>Discussion Portal</h1></div>
               <h2 class="animate-text"><Link className='link' to="/discussPortal">Start a new discussion or ask question here<AiOutlineArrowRight/> </Link></h2>
-              <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+              <p class="animate-text">If you have any clarification, problems or get to further awareness about DevOps. Ask questions and get comments for your all broblems using this Q&A portal </p>
               <div class="dots">
                   <span></span>
                   <span></span>
@@ -85,8 +85,8 @@ export default function Home() {
           <img className='image2' src='https://i.ibb.co/WDdnyP3/situations-vacant-12000-jobs-on-offer-in-edtech.webp' alt=''/>
           <div class="text">
             <div className='homeTiletitle'><h1>Jobs For You</h1></div>
-            <h2 class="animate-text"><Link className='link' to="/jobs">Explore ne jobs and apply<AiOutlineArrowRight/> </Link></h2>
-            <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+            <h2 class="animate-text"><Link className='link' to="/jobs">Explore jobs/companies and apply<AiOutlineArrowRight/> </Link></h2>
+            <p class="animate-text">Use this job portal and find the jobs and companies which are more suitable for your skills and qualifications.</p>
             <div class="dots">
               <span></span>
               <span></span>
@@ -100,7 +100,7 @@ export default function Home() {
           <div class="tile"> 
             <img className='image2' src='https://i.ibb.co/3YYZGM3/Group-Discussion.jpg' alt=''/>
             <div class="text">
-              <div className='homeTiletitle'><h1>Meet Experts</h1></div>
+              <div className='homeTiletitle'><h1>Meet Professionals</h1></div>
               <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
               <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
               <div class="dots">

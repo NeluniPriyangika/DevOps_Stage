@@ -45,7 +45,7 @@
    
 }
 .searchbox{
-     width:80%;
+     width:90%;
      height:30px;
      background-color:white;
      border-radius: 30px;
@@ -56,7 +56,7 @@
 }
 .searchInput{
     border:none;
-    width:70%;
+    width:60%;
     
 }
 .searchIcon{

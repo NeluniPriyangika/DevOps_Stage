@@ -17,8 +17,8 @@ function Topbar(props) {
 
             <div className="topbarCenter">
                 <div className="searchbox" >
-                <AiOutlineSearch className="searchIcon"/>
-                <input placeholder="search now " className="searchInput"/>
+                    <AiOutlineSearch className="searchIcon"/>
+                    <input placeholder="search now " className="searchInput"/>
                 </div>
             </div>
 
