@@ -11,7 +11,6 @@ import WSO2 from "../../assests/WSO2.png";
 import Virtusa from "../../assests/virtusa.png";
 import IFS from "../../assests/IFS.jpg";
 import { Link } from 'react-router-dom';
-import JobsApply from '../jobsApply/JobsApply';
 
 const data =[
   {
@@ -81,11 +80,6 @@ const data =[
 ]
 const Jobs =()=> {
   const [startDate, setStartDate] = useState(new Date());
-  const [selectedJobPost, setSelectedJobPost] = useState(null);
-
-  const handleApply = (jobPost) => {
-    setSelectedJobPost(jobPost);
-};
   
   return ( 
     <div className='jobpage'>
@@ -125,16 +119,16 @@ const Jobs =()=> {
                 <h4 className='jobtitle'>{jobTitle}</h4>
                 <p className='jobdesc'>{jobdicription}</p>
               </div>
-              <div className='buttonDiv'>
-                <button class="button-29" ><Link to={applybutton} onClick={() => handleApply({ jobTitle, jobdicription })} className='link'>Apply</Link></button>
+              <div className='jobbuttonDiv'>
+                <button class="button-29"><Link to={applybutton} className='link'>Apply</Link></button>
                 <button class="button-29" >Save for later</button>
               </div>
             </div>
             )
           })}
+          
         </div>
       </div>
-      {selectedJobPost && <JobsApply jobPost={selectedJobPost} />}
     </div>
   )
 
