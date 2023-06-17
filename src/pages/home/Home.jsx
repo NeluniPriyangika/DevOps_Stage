@@ -41,7 +41,7 @@ export default function Home() {
           <img className='image2' src='https://i.ibb.co/gdwdWKG/digital-skills2-jpg.jpg' alt=''/>
           <div class="text">
             <div className='homeTiletitle'><h1>Feed</h1></div>
-            <h2 class="animate-text">Vew all Feed</h2>
+            <h2 class="animate-text"><Link className='link' to='/feedPortal'>Vew all Feed <AiOutlineArrowRight/></Link></h2>
             <p class="animate-text">You can view in here any other posts, photos, videos any thing others shared.</p>
             <div class="dots">
               <span></span>

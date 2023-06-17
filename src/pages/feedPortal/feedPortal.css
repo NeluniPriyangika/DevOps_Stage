@@ -1,0 +1,12 @@
+.feedPortal{
+    flex:5;
+}
+
+.feedPortal_container{
+    display: flex;
+   
+}
+
+.feedPortalWrapper{
+    padding: 20px;
+}

@@ -1,68 +1,82 @@
-.job-application-page {
-    padding: 20px;
-  }
+.jobPageMainDiv{
+  display: flex;
+
+  height: 100%;
+}
+.jobpageLeft{
+  flex:2;
+  background-color: aqua;
+}
+.jobpageRight{
+  flex:10;
   
-  .job-post {
-    margin-bottom: 20px;
-  }
-  
-  .read-full-job-description {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .apply-section {
-    margin-bottom: 20px;
-  }
-  
-  .apply-message {
-    margin-bottom: 10px;
-  }
-  
-  .apply-with-profile {
-    background-color: #28a745;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .job-application {
-    background-color: #f8f9fa;
-    padding: 20px;
-  }
-  
-  .job-application h2 {
-    margin-bottom: 20px;
-  }
-  
-  .job-application form div {
-    margin-bottom: 10px;
-  }
-  
-  .job-application form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .job-application form input {
-    width: 100%;
-    padding: 5px;
-    border: 1px solid #ced4da;
-    border-radius: 3px;
-  }
-  
-  .regular-apply {
-    background-color: #dc3545;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
+}
+.jobOverviewBox{
+  display: flex;
+}
+.jobOverviewBoxPhotoDiv{
+  flex: 4;
+  margin-left: 10px;
+}
+.jobOverviewRightDiv{
+  flex: 8;
+}
+.jobOvervieRightTop{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.jobOverviewRightFirstpara{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 19px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.jobOverviewSubTopic{
+  margin-left: 20px;
+}
+.unOrderList{
+  margin-left: 70px;
+}
+.formInternal{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-left: 45px;       
+}
+
+input,
+select {
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 1000px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+button[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type='submit']:hover {
+  background-color: #45a049;
+}
+.broserButton{
+  background-color: #633415;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  margin-left: 10px;
+}
+.broserButton:hover{
+  border: none;
+}

@@ -36,7 +36,7 @@ export default function Sodebar() {
                    <li className="sidebarListItem">
                        <MdOutlineDynamicFeed />
                        <span className="sidebarListText">
-                           Feed
+                           <Link className="sidebarListText" to='/feedPortal'>Feed</Link>
                        </span>
                    </li>
                    <li className="sidebarListItem">
@@ -77,7 +77,7 @@ export default function Sodebar() {
                    </li>
                    <li className="sidebarListItem">
                        <MdOutlineStorefront/>
-                          <Link className="sidebarListText" to="/supplier"> Item Suppliers </Link>
+                          <Link className="sidebarListText" to="/supplier"> TopUp Companies </Link>
                    </li>
                    
                </ul>

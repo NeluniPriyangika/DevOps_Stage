@@ -56,7 +56,7 @@
                          <span className="shareOptionText">Write Articles</span>
                      </div>
                  </div>
-                 <button className="shareButton">Add Post</button>
+                 <button className="shareButton"><Link className="link" to='/feedPortal'>Add Post</Link></button>
  
              </div>
          </div>

@@ -1,0 +1,129 @@
+.postshare{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    background-color:white;
+    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35); 
+    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
+} 
+.postshareWrapper{
+    padding: 10px;
+}
+.postshareImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.postshareTop{
+    display: flex;
+    align-items: center;
+}
+.postshareinput{
+    border:none;
+    width:80%;
+    background:transparent;
+    font-size:20px;
+    font-family: "Roboto Light";
+    margin-top:10px;
+    margin-left: 10px;
+}
+.postshareinput:focus{
+    outline:none;
+}
+.postshareHr{
+    margin:20px;
+}
+.postshareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.postshareOptions{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 60px;
+}
+.postshareOption{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.postshareOptionText{
+    margin-left: 10px;
+}
+.postshareOptionText{
+    font-size: 14px;
+    font-weight: 500;
+}
+.postshareButton{
+     border:none;
+     padding: 7px;
+     border-radius: 5px;
+     background-color:rgb(66, 105, 8);
+     font-weight: 500;
+     margin-right: 20px;
+     cursor: pointer;
+     color:white;
+}
+.postshareDesc{
+    margin-left: 60px;
+    background-color: #f6dcf8;
+    width:80%;
+    height:30%;
+    border-radius: 10px;
+}
+.postshareCost{
+    margin-left: 60px;
+    background-color:#f8dce7;
+    width:80%;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.postshareinput2{
+    border: none;
+    width: 80%;
+    background: transparent;
+    font-size: 16px;
+    font-family: "Roboto Light";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.postdrop{
+    position: relative;
+    display: flow;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.postshareIdea{
+    margin-left: 1px;
+    background-color:#f6dcf8;
+    width:80%;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.postshareDesc:focus{
+    outline:none;
+}
+.postshareCost:focus{
+    outline:none;
+}
+.postshareinput2{
+    outline: none;
+}
+.postdropContainer{
+    display: flex;
+}
+.postprivacy{
+    margin-top: 10px;
+    margin-left: 50px;
+}

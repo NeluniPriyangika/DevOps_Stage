@@ -11,6 +11,7 @@ import WSO2 from "../../assests/WSO2.png";
 import Virtusa from "../../assests/virtusa.png";
 import IFS from "../../assests/IFS.jpg";
 import { Link } from 'react-router-dom';
+import Tobpar from '../../components/topbar/Topbar';
 
 const data =[
   {
@@ -83,7 +84,7 @@ const Jobs =()=> {
   
   return ( 
     <div className='jobpage'>
-      <Jobtopbar/>
+      <Tobpar/>
       <div className='jobcontent'>
         <h2 className='jobPagetitle'>Recommended Jobs for you</h2>
         <div className='sortJobs'>
