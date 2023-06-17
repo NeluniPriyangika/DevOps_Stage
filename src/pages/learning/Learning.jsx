@@ -235,7 +235,11 @@ function Learning() {
                       </button>
                     </div>
                     <span class="circle"></span>
-                    <span class="date">Congratulations..!</span>
+                    <span class="date">Eighth Step</span>
+                </li>
+                <li>
+                    <span class="circle"></span>
+                    <span class="date">Congratulations...!</span>
                 </li>
             </ul>
         </div>

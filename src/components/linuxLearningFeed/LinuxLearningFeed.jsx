@@ -88,7 +88,7 @@ const buttonStyle = {
 const LinuxLearningFeed =() => {
   return (
     <div className='linuxfeed'> 
-        <button className='linuxPlayButton' style={buttonStyle}><span><Link to={'/linuxTerminal'} className='link'>Go to Linux playground</Link></span><i></i></button>
+        <button className='linuxPlayButton' style={buttonStyle} ><span><Link to={'/linuxTerminal'} className='link' target='_blank'>Go to Linux playground</Link></span><i></i></button>
         <div className='linuxfeedWrapper'>
         
             {data.map(({id, image, title, description, go}) => {
@@ -103,7 +103,7 @@ const LinuxLearningFeed =() => {
                                             <Card.Subtitle className="mb-2 text-muted"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/></Card.Subtitle>
                                             <Card.Text className='cardText'>{description}</Card.Text>
                                         </Card.Body>
-                                        <a className='btn' target= '_blank' rel="noreferrer" href= {go}>Start Your Course<span class="link"></span></a>
+                                        <a className='btn' target= '_blank' rel="noreferrer" href= {go}><span>Start Your Course</span></a>
                                         
                                     </Card>
                                 </Col>

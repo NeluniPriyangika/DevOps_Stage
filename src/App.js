@@ -19,6 +19,7 @@ import DiscussionPortal from "./pages/discussionPortal/DiscussionPortal";
 import LinuxTerminal from "./pages/linuxTerminal/LinuxTerminal.jsx";
 import Jobs from "./pages/jobpage/Jobs.jsx";
 import JobsApply from "./pages/jobsApply/JobsApply";
+import KubernetesTerminal from "./pages/kubernetesTerminal/KubernetesTerminal";
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useContext } from "react";
@@ -53,6 +54,8 @@ function App() {
         <Route path="/linuxTerminal" element= {<LinuxTerminal/>}/>
         <Route path="/jobs" element= {<Jobs/>}/>
         <Route path="/jobsApply" element= {<JobsApply/>}/>
+        <Route path="/kubernetesTerminal" element= {<KubernetesTerminal/>}/>
+
         
         
         

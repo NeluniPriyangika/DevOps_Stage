@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import KubernetesImage from "../../assests/kubernetes.jpg";
 import {AiFillStar,AiOutlineStar} from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 
 const data =[
@@ -84,7 +85,7 @@ const data =[
 const KuberneteslearningFeed =()=> {
   return (
     <div className='pythonfeed'> 
-        <button className='kubernetesPlayButton'>Go to kubernetes playground</button>
+        <button className='kubernetesPlayButton'><span><Link to='/kubernetesTerminal' className='link' target='_blank'>Go to kubernetes playground</Link></span></button>
         <div className='pythonfeedWrapper'>
         
             {data.map(({id, image, title, description, go}) => {
