@@ -123,7 +123,7 @@ border-width: 1.7px;
 
 
 
-.cardText{
+.linuxcardText{
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;

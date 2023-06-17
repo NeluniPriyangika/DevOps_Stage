@@ -88,21 +88,21 @@ const buttonStyle = {
 
 const KuberneteslearningFeed =()=> {
   return (
-    <div className='pythonfeed'> 
+    <div className='kubernetesfeed'> 
         <button className='kubernetesPlayButton' style={buttonStyle}><span><Link to='/kubernetesTerminal' className='link' target='_blank'>Go to kubernetes playground</Link></span></button>
-        <div className='pythonfeedWrapper'>
+        <div className='kubernetesfeedWrapper'>
         
             {data.map(({id, image, title, description, go}) => {
                 return (
                 
                         <Row className="g-4" key={id}>
                                 <Col >
-                                    <Card className='cardContext'>
+                                    <Card className='kubernetescardContext'>
                                         <Card.Img variant="top" src={image} />
                                         <Card.Body>
                                             <Card.Title>{title}</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/></Card.Subtitle>
-                                            <Card.Text className='cardText'>{description}</Card.Text>
+                                            <Card.Text className='kubernetescardText'>{description}</Card.Text>
                                         </Card.Body>
                                         <a className='btn' target= '_blank' rel="noreferrer" href= {go}>Start Your Course<span class="link"></span></a>
                                         

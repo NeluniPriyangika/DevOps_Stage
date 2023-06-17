@@ -101,7 +101,7 @@ const LinuxLearningFeed =() => {
                                         <Card.Body>
                                             <Card.Title>{title}</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted"><AiFillStar/><AiFillStar/><AiFillStar/><AiFillStar/><AiOutlineStar/></Card.Subtitle>
-                                            <Card.Text className='cardText'>{description}</Card.Text>
+                                            <Card.Text className='linuxcardText'>{description}</Card.Text>
                                         </Card.Body>
                                         <a className='btn' target= '_blank' rel="noreferrer" href= {go}><span>Start Your Course</span></a>
                                         

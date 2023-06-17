@@ -6,6 +6,7 @@ import Me from '../../assests/me.jpg';
 import Girl from '../../assests/girl.jpg';
 import Women from '../../assests/women.jpg';
 import Man from '../../assests/man.jpg';
+import Boy from '../../assests/boy.jpg';
 
 function DiscussComp(props) {
     return (
@@ -58,8 +59,8 @@ function DiscussComp(props) {
 
                     </div>
                     <h4 className="discuss-disDesc">
-                        Lorem ipsum dolor sit amet, ius utamur oblique quaestio ne. Eu euismod gubergren definitiones mei, ex illud albucius eum. Iisque ornatus docendi cu mel. Ei mei magna ancillae expetendis, no ludus aliquam tincidunt quo. Consul vocent interpretaris vix id.
-                        Ei iisque principes disputationi nam, modo discere ius et. Discere delenit vivendo pro ad, omnis imperdiet id ius. Sit vide dicat ocurreret at, ex duo soluta evertitur.
+                        Hi everyone,<br />
+                        I'm working on a project with a complex development environment and need some tips to optimize our CI/CD pipelines. Any advice on handling dependencies, reducing build/deployment times, ensuring pipeline reliability, managing complex workflows, or other insights would be greatly appreciated!
                     </h4>
 
                     <div className="discuss-shareBottom">
@@ -94,13 +95,13 @@ function DiscussComp(props) {
                         <img className="discuss-shareImg" src={Man} alt=""/>
                         <div>
                             <h1 className="discuss-discstopic">
-                                I would like to share my new achivement in Devops like this...
+                                What are some common tools used in a DevOps environment?
                             </h1>
                         </div>
                     </div>
                     <h4 className="discuss-disDesc">
-                        Lorem ipsum dolor sit amet, ius utamur oblique quaestio ne. Eu euismod gubergren definitiones mei, ex illud albucius eum. Iisque ornatus docendi cu mel. Ei mei magna ancillae expetendis, no ludus aliquam tincidunt quo. Consul vocent interpretaris vix id.
-                        Ei iisque principes disputationi nam, modo discere ius et. Discere delenit vivendo pro ad, omnis imperdiet id ius. Sit vide dicat ocurreret at, ex duo soluta evertitur.
+                    As I delve into the world of DevOps, I'm curious about the tools that are commonly utilized. 
+                    Could you provide some insights into the popular tools and technologies employed in a typical DevOps environment and their respective purposes?
                     </h4>
 
                     <div className="discuss-shareBottom">
@@ -137,15 +138,60 @@ function DiscussComp(props) {
                         <img className="discuss-shareImg" src={Women} alt=""/>
                         <div>
                             <h1 className="discuss-discstopic">
-                                I would like to kanow about Kubernetes.
+                                How does DevOps facilitate collaboration between development and operations teams?
                             </h1>
 
                         </div>
 
                     </div>
                     <h4 className="discuss-disDesc">
-                        Lorem ipsum dolor sit amet, ius utamur oblique quaestio ne. Eu euismod gubergren definitiones mei, ex illud albucius eum. Iisque ornatus docendi cu mel. Ei mei magna ancillae expetendis, no ludus aliquam tincidunt quo. Consul vocent interpretaris vix id.
-                        Ei iisque principes disputationi nam, modo discere ius et. Discere delenit vivendo pro ad, omnis imperdiet id ius. Sit vide dicat ocurreret at, ex duo soluta evertitur. 
+                        Hi everyone..! <br />
+                        I've heard that DevOps helps improve collaboration between development and operations teams. 
+                        Could you explain how DevOps practices and methodologies bridge the gap between these two traditionally separate teams and foster a culture of collaboration? 
+                    </h4>
+
+                    <div className="discuss-shareBottom">
+                        <div className="discuss-shareOptions">
+                            <div className="discuss-shareOption">
+                                <MdFavorite size= "25px" className="discuss-shareIcon3"/>
+                                <span className="discuss-shareOptionText">Interested</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="discuss-commentbox">
+                        <div className="discuss-shareDesc">
+                            <input placeholder="comment "
+                                    className="discuss-shareinput" />
+                        </div>
+                        <div>
+                            <div className="discuss-comButton">
+                                <button className="discuss-shareButton">Add Comment</button>
+                            </div>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+            <div className='discuss-main'>        
+                <div className='arrowsDiv'>
+                    <div className='arrows'><TfiArrowCircleUp size="40px" className='arrowsIcon'/></div>
+                    <div className='arrows'><h4 className='arrowsWord'>113</h4></div>
+                    <div className='arrows'><TfiArrowCircleDown size="40px" className='arrowsIcon'/></div>
+                </div>
+                <div className="discuss-share1">
+                    <div className="discuss-shareTop">
+                        <img className="discuss-shareImg" src={Boy} alt=""/>
+                        <div>
+                            <h1 className="discuss-discstopic">
+                                What are the benefits of implementing DevOps in an organization?
+                            </h1>
+
+                        </div>
+
+                    </div>
+                    <h4 className="discuss-disDesc">
+                        I'm interested in understanding the tangible benefits that organizations can expect to gain from adopting DevOps practices. 
+                        Could you outline some of the advantages and positive outcomes that organizations can experience by implementing DevOps?
                     </h4>
 
                     <div className="discuss-shareBottom">

@@ -104,21 +104,22 @@
 
 
 
-.pythonfeedWrapper{
+.kubernetesfeedWrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;     
 }
 
-.cardContext{
-    -webkit-box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35); 
-    box-shadow: 1px 0px 17px 6px rgba(0,0,0,0.35);
-    border-color: black;
+.kubernetescardContext{
+    box-shadow: 11px 10px 15px -6px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 11px 10px 15px -6px rgba(0,0,0,0.29);
+    -moz-box-shadow: 11px 10px 15px -6px rgba(0,0,0,0.29);
+    border-width: 1.7px;
 }
 
 
 
-.cardText{
+.kubernetescardText{
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;

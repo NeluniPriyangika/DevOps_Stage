@@ -15,7 +15,7 @@ body
   width:380px;
   height:380px;
   margin:10px;
-  background-color:#99aeff;
+  background-color:#000000;
   display:inline-block;
   background-size:cover;
   position:relative;
@@ -56,13 +56,21 @@ body
   padding:30px;
   height:calc(100% - 60px);
 }
+
 .tile h1
 {
- 
   font-weight:300;
   margin:0;
   text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
 }
+
+.tile .homeTiletitle{
+  background-color: #000000;
+  text-align: center;
+ opacity: 0.8;
+ 
+}
+
 .tile h2
 {
   font-weight:100;
