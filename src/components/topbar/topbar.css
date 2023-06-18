@@ -36,7 +36,7 @@
     cursor: pointer;
     color: #FFFFFF;
     text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     
 }
 .logo:hover{
@@ -44,27 +44,30 @@
     color: #f3b0b0;
    
 }
-.searchbox{
-     width:80%;
+.searchboxtopBar{
+     width:90%;
      height:30px;
-     background-color:white;
+     background-color:rgb(255, 255, 255);
      border-radius: 30px;
      display: flex;
      align-items: center;
      margin-top: 10px;
 
 }
-.searchInput{
+.searchInputTopBar{
     border:none;
-    width:60%;
+    width: 550px;;
+    background-color: #ffffff;
+    margin-top: 15px;
+    height: 25px;
     
 }
 .searchIcon{
      font-size: 20px !important; 
-     margin:left;
+     margin-left: 10px;
 }
 
-.searchInput:focus{
+.searchInputTopBar:focus{
     outline:none;
 }
 .topbarImg{
@@ -175,3 +178,27 @@
 #fork:hover:before {
   transform: translateX(0) skewX(-45deg);
 }
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    min-width: 200px;
+  }
+  
+  .notification {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #000;
+    align-items: center;
+    cursor: pointer;
+  }
+  .notifiIcon{
+    margin-top: 7px;
+    color: #b4b4b3;
+  }

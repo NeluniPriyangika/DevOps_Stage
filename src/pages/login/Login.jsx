@@ -31,28 +31,29 @@ export default function Login() {
   return (
     <div className='login'>
         <span className="loginTitle">Welcome..! To The DevOps World</span>
-        <form className='loginForm' onSubmit={handleSubmit}>
-            <label>Username</label>
-            <input 
-              type="text" 
-              className='loginInput' 
-              placeholder="Enter your username..." 
-              ref={userRef}
-            />
-            <label>Password</label>
-            <input 
-              type="password" 
-              className='loginInput' 
-              placeholder="Enter your password..." 
-              ref={passwordRef}
-            />
-            <button 
-              className='loginButton' 
-              type='submit' 
-              disabled ={isFetching}>
-              <Link className='link' to= "/home">Login</Link>
-            </button>
-        </form>
+        <div className="loginFormContainer">
+          <form className='loginForm' onSubmit={handleSubmit}>
+              <label>Username</label>
+              <input 
+                type="text" 
+                className='loginInput' 
+                placeholder="Enter your username..." 
+                ref={userRef}
+              />
+              <label>Password</label>
+              <input 
+                type="password" 
+                className='loginInput' 
+                placeholder="Enter your password..." 
+                ref={passwordRef}
+              />
+              <button 
+                className='loginButton' 
+                disabled ={isFetching}>
+                <Link className='link' to= "/home">Login</Link>
+              </button>
+          </form>
+        </div>
         <button className='loginRegisterButton'>
           <Link className='link' to="/register">Register</Link>
         </button>

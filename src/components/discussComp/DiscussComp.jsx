@@ -11,7 +11,7 @@ import Boy from '../../assests/boy.jpg';
 function DiscussComp(props) {
     return (
         <div>
-            <div className="discuss-Share">
+            <div className="discussComponent-Share">
                 <div className="discuss-shareTop">
                     <img className="discuss-shareImg" src={Me} alt=""/>
                     <div className="discuss-shareDesc">

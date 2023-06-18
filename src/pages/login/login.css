@@ -20,10 +20,17 @@
     
 }
 
+.loginFormContainer{
+ 
+ width: 310px;
+ margin-left: 0px;
+ margin-bottom: 2px;
+}
+
 .loginForm{
     margin-top: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
 }
 
 .loginForm > label{
@@ -32,8 +39,8 @@
 
 .loginInput{
     padding: 10px;
-    background-color: white;
     border: none;
+    width: 300px;
 }
 
 .loginButton{

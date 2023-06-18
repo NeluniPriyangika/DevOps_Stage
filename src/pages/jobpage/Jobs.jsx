@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 import "./jobs.css";
-import Jobtopbar from '../../components/jobTopbar/JobTopbar';
-import Dropdown from 'react-bootstrap/Dropdown';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Nintyx from "../../assests/99x.png";
@@ -11,7 +9,7 @@ import WSO2 from "../../assests/WSO2.png";
 import Virtusa from "../../assests/virtusa.png";
 import IFS from "../../assests/IFS.jpg";
 import { Link } from 'react-router-dom';
-import Tobpar from '../../components/topbar/Topbar';
+import Topbar from '../../components/topbar/Topbar';
 
 const data =[
   {
@@ -80,37 +78,30 @@ const data =[
 
 ]
 const Jobs =()=> {
-  const [startDate, setStartDate] = useState(new Date());
   
+  const [selectedDate, setSelectedDate] = useState(null);
+
+  const handleDateChange = (date) => {
+    setSelectedDate(date);
+  };
   return ( 
     <div className='jobpage'>
-      <Tobpar/>
+      <Topbar/>
       <div className='jobcontent'>
-        <h2 className='jobPagetitle'>Recommended Jobs for you</h2>
-        <div className='sortJobs'>
-          <div className='sortby'><h5>Sort by :</h5> </div>
-          <Dropdown className='locationDropdown'>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-              Location
-            </Dropdown.Toggle>
-
-            <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
-
-          <Dropdown className='dateDropdown'>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-              Date published
-            </Dropdown.Toggle>
-
-            <Dropdown.Menu>
-              <DatePicker placeholderText='Select by date' selected={startDate} onChange={(date) => setStartDate(date)} />    
-            </Dropdown.Menu>
-          </Dropdown>
-        </div>
+      <div className="jobContentPageTop">
+    <div className="jobContentPageTitle">
+            <h2 className='jobPagetitle'>Recommended Jobs for you</h2>    
+    </div>
+    <div className="jonContentPageOptions">
+        <div className='sortby'><h5>Sort by :</h5> </div>
+		    <div className="jobcontectpageoptionWithButtions">
+            <div>
+                <DatePicker placeholderText="Posted Date" className='jobDatePicker'  selected={selectedDate} onChange={handleDateChange} />
+            </div>
+          
+       </div>    
+	</div>	
+  </div>
         <div className='jopPostdiv'>
           {data.map(({id,jobImage, jobTitle, jobdicription, applybutton }) => {
             return(

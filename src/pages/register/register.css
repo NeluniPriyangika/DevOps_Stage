@@ -20,6 +20,10 @@
     font-family:'Lora', serif;
 }
 
+.registerFormContainer{
+    width: 350px;
+}
+
 .registerForm{
     margin-top: 20px;
     display: flex;
@@ -35,6 +39,7 @@
     padding: 10px;
     background-color:white;
     border: none;
+    width: 350px;
 }
 
 .registerButton{

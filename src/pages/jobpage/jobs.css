@@ -1,8 +1,18 @@
 .jobcontent{
     margin-top: 20px;
     margin-left: 20px;
+
 }
 
+.jonContentPageOptions{
+    display: flex;
+}
+.jobcontectpageoptionWithButtions{
+   width: 200px;
+}
+.jobDatePicker{
+    width: 200px;
+}
 .sortJobs{
     margin-top: 20px;
     display: flex;
