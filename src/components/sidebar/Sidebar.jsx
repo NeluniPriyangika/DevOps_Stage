@@ -67,9 +67,7 @@ export default function Sodebar() {
                    </li>
                    <li className="sidebarListItem">
                        <MdAnnouncement/>
-                       <span className="sidebarListText">
-                           Skill Quizers
-                       </span>
+                       <Link className="sidebarListText" to="/quizPage">Skill Quizers</Link>
                    </li>
                    <li className="sidebarListItem">
                        <MdGroups/>

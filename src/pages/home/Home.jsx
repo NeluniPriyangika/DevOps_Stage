@@ -71,7 +71,7 @@ export default function Home() {
           <img className='image2' src='https://i.ibb.co/jHKxHCy/speedometer-measuring-skill-level-high-green-d-rendered-white-background-measuring-skill-level-11714.jpg' alt=''/>
           <div class="text">
             <div className='homeTiletitle'><h1>Mesure Your Skill</h1></div>
-            <h2 class="animate-text">More lorem ipsum bacon ipsum.</h2>
+            <h2 class="animate-text"><Link className='link' to="/quizPage">FAce the Skill Quizers and you can mesure your DevOps Skills<AiOutlineArrowRight/> </Link></h2>
             <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
             <div class="dots">
                 <span></span>

@@ -240,6 +240,7 @@ function Learning() {
                 <li>
                     <span class="circle"></span>
                     <span class="date">Congratulations...!</span>
+                    <h3 class="title">You have succesfully learned obout DevOps</h3>
                 </li>
             </ul>
         </div>
