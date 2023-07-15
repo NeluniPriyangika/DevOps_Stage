@@ -69,6 +69,9 @@ function JobsApply() {
                </ul>
             </p>
           </div>
+          <div className="devopsprofileApply">
+            <button type="submit">Apply with "DevOps World" Profile</button>
+          </div>
           <div className="formMainDiv">
                       <form className='formInternal'>
                         <div>

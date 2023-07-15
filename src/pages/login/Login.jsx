@@ -33,7 +33,7 @@ export default function Login() {
         <span className="loginTitle">Welcome..! To The DevOps World</span>
         <div className="loginFormContainer">
           <form className='loginForm' onSubmit={handleSubmit}>
-              <label>Username</label>
+              <label>Email</label>
               <input 
                 type="text" 
                 className='loginInput' 
